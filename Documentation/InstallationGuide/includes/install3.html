@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<title></title>
+	<style type='text/css' media='all'>
+		@import url('style.css');
+	</style>
+</head>
+<body>
+
+
+<h2>Installing: Step 3 - Final Steps</h2>
+<br />
+<div class='content-text'>
+  <p>&nbsp;</p>
+  <p><br />
+    <strong>Step 6)</strong> Almost there! You now need to create the  following 5 <a href="http://en.wikipedia.org/wiki/Cron" target="_blank">cronjobs</a> in your web host's Control Panel (look for the 'cron' button or something similar). Your hosting provider should provide access to this as standard.&nbsp; These cron jobs should be set to run <strong>every minute, of every hour, of every day</strong>.&nbsp; If you cannot do this from your hosting  Control Panel, you may need to contact your host for assistance in setting it  up.<br />
+    <br />
+<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The 5 cron commands you need to set up are:</p>
+  <p style="font-family: 'Courier New', Courier, monospace;"><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl -s http://www.<em>domain.com</em>/daemons.php?type=bidbutler<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl -s http://www.<em>domain.com</em>/daemons.php?type=extend<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl -s http://www<em>.domain.com</em>/daemons.php?type=close<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl -s http://www.<em>domain.com</em>/dcleaner<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl -s http://www.<em>domain.com</em>/dwinner</p>
+  <p>&nbsp;</p>
+  <p>*http://www<em>.domain.com/</em> replaces your own domain name.<br />
+    <br />
+    NOTE: Some servers do not allow cron jobs to be run every 1 minute. In that case, you can use the included cron execution script, which is at webroot/cron_run.php. Try running this file in your Cron control panel at the lowest (most frequent) interval allowed. You'll need to make sure that the cronTime setting in your config.php file matches that though. So if you're running the cron_run.php file every 20th minute, you MUST  set the cronTime setting to '20'. <br />
+    <br />
+<br />
+    <br />
+<br />
+  For advanced users, the full Unix command for crons every minute, would be: <span style="font-family: 'Courier New', Courier, monospace;">* * * *  curl -s -o /dev/null http://www.<em>domain.com</em>/XXXX</span></p>
+  <p><br />
+    <br />
+    <br />
+    <br />
+  </p>
+<p><strong>Step 7)</strong> You should now be able to access  your website on the location you installed it, from your web browser.&nbsp; Please go to <em><strong>http://www.yourdomain.com/users/register</strong></em> and fill out the form to sign up. Note that the very first account that you register will be set to an <strong>administrator</strong>.&nbsp; Once you have done this, open up the config.php file in your HTML Editor (which is in the /app/config/ folder) and turn the <em>demoMode</em> setting back to <em><strong>false</strong></em> to disable further registrations from becoming admin users. <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <h3>Installation Complete</h3>
+  That&rsquo;s  it! The  manual installation is finished and your site is ready to be used. Lastly,  log in to your Admin Panel on your website to get started and click the &lsquo;<em><strong>admin</strong>&rsquo;</em> button (once logged in as the  administrator), in the top menu on your website. If you don't see the '<strong>admin' </strong>button when logged in, please repeat step 8 above. </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><br />
+  </p>
+  <h3>Confused?</strong> Lost?</h3>
+  Don't  fret! phpPennyAuction Support can install the software for you, at no cost - although bear in mind  that we will only repeat the above steps, so please try to complete them to  assist us as best you can. Please feel free to   contact a member of the Support Department for assistance with any aspect of the  installation or software, by opening a new ticket in the Support Center:  <strong><u><a href="https://members.phppennyauction.com" target="_blank">https://members.phppennyauction.com</a></u></strong></p>
+  <p><br />
+    <br />
+    <br />
+  </p>
+  <p></p>
+</div>
+<br /><br />
+
+</body>
+</html>

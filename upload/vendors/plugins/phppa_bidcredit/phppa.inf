@@ -1,0 +1,8 @@
+$info=array(
+	'name'=>'bidcredit',
+	'title'=>'bidcredit 1.0',
+	'description'=>'Automatically credits users with bids after auction payment.',
+	'copyright'=>'Copyright 2010, Scriptmatix. Distribution is prohibited.',
+	'min_version'=>'2.4.2',
+	'max_version'=>'2.5.0',
+);

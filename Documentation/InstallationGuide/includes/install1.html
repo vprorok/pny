@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<title></title>
+	<style type='text/css' media='all'>
+		@import url('style.css');
+	</style>
+</head>
+<body>
+
+
+<h2>Installing: Step 1 - Using the Installer</h2>
+<br />
+<div class='content-text'>
+	  Note: An <a href="../install_guide.html">Automated Installer</a> is provided to assist you in entering the information phpPennyAuction needs to connect to your MySQL database, setting up your software on your server,  and to create your new
+	  administrators account.
+         If you want to use that (recommended), please see <a href="welcome.html">here</a>.  If you want to install manually, without the Automated Installer, please continue reading. <br />
+        <br />
+<blockquote>These next few pages contain instructions on installing the software manually. Please make sure to take note of each step. </blockquote>
+  <strong>Step 1)</strong> Open the &quot;<strong>/upload/&quot;</strong> folder and upload everything inside it, to your server using an FTP program (see below if you are not sure on how to use an FTP program). You don't need to upload the<strong> /Documentation/</strong> or <strong>/Installer/</strong> folders, just the <strong>/upload/</strong> one. It is recommend that you use <a href="http://www.filezilla-project.org" target="_blank">FileZilla</a> for uploading folders &amp; files to your web server. &nbsp;<br />
+  <br />
+<br />
+  <div class="warning"><p><strong>Using FileZilla</strong> <br />
+    <br />
+    You can skip this section if you know how to use an FTP client.This guide  gives you a short overview on how to use it. By default you don't have to  configure FileZilla, so you can start directly working with the program. <br />
+    <br />
+<br />
+  </p>
+  <h2>Connecting  to an FTP server </h2>
+  <p>To connect to an  FTP server, enter the address of the server into the host field of the  Quickconnect bar (i.e. domain.com - see image below). If it is a special server  type like an SFTP server, add the protocol in front of the address. In case of  an SFTP server, start the address with 'sftp://' (i.e. sftp://domain.com).  Enter the port of the server into the port field if it is <em>not</em> the  default port (21 for FTP, 22 for SFTP). If a username / password is required,  enter it in the corresponding fields, otherwise the default <em>anonymous</em> logon will be used. Click on Quickconnect or press Enter to connect to the  server. <br />
+    <img src="images/filezilla1.jpg" alt="" width="628" height="94" /><br />
+    <br />
+    Please notice that the Quick Connect is for...  quick connections - so there is no way to edit the quick connections list which  stores the last 10 entries. To store FTP server names you should use the Site  Manager, instead. <br />
+    Quick Connect is good for testing the login info  before making a site manager entry. Once you connect, you can choose File -&gt;  &quot;Copy current connection to Site Manager...&quot; to make a permanent  entry. It is usually best to check your login info with Quick Connect before  making a permanent entry. <br />
+  <br />
+  <strong>Navigating  on the server</strong> <br />
+After a successful connection attempt, a list of  files and folders appears on the <strong>right</strong> side of the main window. The  current folder is listed in the edit field on the top. Below you will see the  remote directory tree and below that, the contents of the current remote  folder. There are three ways to change the folder. First, you can double-click  a folder in the file list. Second, you can change the current folder by  clicking a folder in the directory tree. Last but not least, you can always  enter the folder name into the edit field and press enter. You will notice a  folder called &quot;..&quot; displayed in virtually all directories. This  folder allows you to go up to the parent directory of the current folder. </p>
+  <p><br />
+    <img src="images/filezilla2.jpg" alt="" width="613" height="387" /><br />
+    <br />
+  </p>
+  <h2>Navigating on your computer </h2>
+  <p>Navigating on your machine works almost like  navigating on the server. The current local folder and the local directory tree  are displayed on the <strong>left</strong> side of the main window by default. <br />
+  </p>
+  <h2><img src="images/filezilla3.jpg" alt="" width="340" height="113" /><br />
+    <br />
+    Transferring files </h2>
+  <p>You can upload or download a file by  double-clicking on it. It will be added to the transfer queue and the transfer  starts automatically. To transfer folders and/or multiple files, select them and  right-click the selection. Then you can click on Upload/Download in the popup  menu. </p>
+  <p><img src="images/filezilla4.jpg" alt="" width="610" height="291" /><br />
+    <br />
+  </p>
+  <p>You can also drag the files from one side and drop  them on the other side. To add files to the queue so that they will be  transferred later, select them and click Add to Queue from the popup menu. You  may also drag the files directly into the queue. Click on the button on the toolbar to start the  transfer. <br />
+Or, you can click on a file, then drag the file (a  box is added to the arrow cursor) to the folder where you want to move it. The  folder will be highlighted when you are over it. Let go of the mouse button and  the file will be moved to the folder. </p>
+  <p><img src="images/filezilla5.jpg" alt="" width="592" height="282" /></p>
+  <p>&nbsp;</p>
+  
+  </div>
+  <p><strong><br />
+    <br />
+  Step 2)</strong> The file structure of the <strong>/upload/</strong> folder, is listed in the diagram below . Make sure to upload it in the correct structure. You will also need to CHMOD (set permissions) for some folders, however this information is covered later in this documentation. <br />
+  <br />
+  </p>
+<table width='100%' align='center' cellpadding='4' cellspacing='0'>
+ <tr>
+  <td align='center'>
+  <table width='100%' align='center' cellpadding='0' cellspacing='0' bgcolor='#BCBCBC'>
+  <tr>
+   <td>
+    <table width='100%' align='center' cellpadding='4' cellspacing='1'>
+     <tr>
+       <td width='5%' bgcolor='#EEEEEE' style='font-size:10px'>&nbsp;</td>
+       <td width='25%' bgcolor='#EEEEEE' style='font-size:10px'><b>File/Folder Name</b></td>
+       <td width='20%' bgcolor='#EEEEEE' style='font-size:10px' align='center'><b>Folder CHMOD Value</b></td>
+       <td width='15%' bgcolor='#EEEEEE' style='font-size:10px' align='center'><b>CHMOD Needed?</b></td>
+       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/admin/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+       <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/cake/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+            
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/config/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/controllers/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/ioncube/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/locale/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0777</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/models/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+
+       <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/plugins/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+         
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/template1/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/template2/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/tmp/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0777
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>YES</tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/vendors/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/views/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+
+       <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/webroot/</span></td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+      <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>.htaccess</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+      
+            <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>app_controller.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>app_error.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>app_helper.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>app_model.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>daemons_functions.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>database.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>getstatus_functions.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>index.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>info.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+             <tr>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/file.gif' border='0' alt='PHP file'></td>
+       <td align='left' valign='middle' bgcolor='#FFFFFF'>xml_functions.php</td>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>0755</a>
+       <td align='center' valign='middle' bgcolor='#FFFFFF'>-</a>       </tr>
+       
+      </table>
+    </td>
+   </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+  <p>&nbsp;</p>
+  <p><strong>NB: You can install the software to a sub-domain if you wish, but not a sub-folder. For example http://sub.domain.com is fine, http://www.domain.com/sub/ will not work.</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+  <p>&nbsp;</p>
+  <p><br />
+</p>
+</div>
+<br /><br />
+<div class='content-next'>
+	<img src='images/next_arrow.png' alt='' style='vertical-align:middle' border='0' /> <a href='install2.html'>Next: Installation Step Two</a>
+</div>
+
+</body>
+</html>

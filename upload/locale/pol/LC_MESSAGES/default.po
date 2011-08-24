@@ -1,0 +1,5186 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: Revision: 7690 /app/views/helpers/form.php
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-11-10 17:40+0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /app_controller.php:102
+msgid "Invalid %s or %s. Please try again."
+msgstr ""
+
+#: /app_error.php:27
+#: /views/themed/bidchopper/errors/error404.ctp:3
+#: /views/themed/goldenbids/errors/error404.ctp:3
+#: /views/themed/grababid/errors/error404.ctp:3
+msgid "Error"
+msgstr ""
+
+#: /controllers/accounts_controller.php:11
+#: /views/accounts/index.ctp:10
+#: /views/elements/menu_top.ctp:7
+#: /views/elements/menu_user.ctp:17
+#: /views/themed/aquabid/accounts/index.ctp:2;6
+#: /views/themed/aquabid/elements/menu_user.ctp:17
+#: /views/themed/bidchopper/elements/menu_top.ctp:6
+#: /views/themed/bidchopper/elements/menu_user.ctp:20
+#: /views/themed/goldenbids/elements/menu_user.ctp:20
+#: /views/themed/grababid/elements/menu_user.ctp:20
+#: /views/themed/tik/accounts/index.ctp:1;3
+#: /views/themed/tik/elements/menu_top.ctp:3
+#: /views/themed/tik/elements/menu_user.ctp:19
+#: /views/themed/yep/accounts/index.ctp:3
+#: /views/themed/yep/elements/menu_user.ctp:16
+msgid "My Account"
+msgstr ""
+
+#: /controllers/accounts_controller.php:16;21
+#: /controllers/auctions_controller.php:693;698
+#: /controllers/bidbutlers_controller.php:131;136
+#: /controllers/bids_controller.php:76;81;94;99
+#: /controllers/limits_controller.php:85;90
+#: /controllers/referrals_controller.php:29;34
+#: /controllers/users_controller.php:227;232;255
+msgid "Invalid User."
+msgstr ""
+
+#: /controllers/addresses_controller.php:17
+#: /views/addresses/index.ctp:10
+#: /views/elements/menu_user.ctp:7
+#: /views/themed/aquabid/addresses/add.ctp:2
+#: /views/themed/aquabid/addresses/index.ctp:2;6
+#: /views/themed/aquabid/elements/menu_user.ctp:7
+#: /views/themed/bidchopper/elements/menu_user.ctp:10
+#: /views/themed/goldenbids/elements/menu_user.ctp:10
+#: /views/themed/grababid/elements/menu_user.ctp:10
+#: /views/themed/tik/addresses/add.ctp:3
+#: /views/themed/tik/addresses/index.ctp:1
+#: /views/themed/tik/elements/menu_user.ctp:9
+#: /views/themed/yep/addresses/index.ctp:3
+#: /views/themed/yep/elements/menu_user.ctp:8
+msgid "My Addresses"
+msgstr ""
+
+#: /controllers/addresses_controller.php:22;28;58;64
+msgid "Invalid address type."
+msgstr ""
+
+#: /controllers/addresses_controller.php:44
+msgid "The address was successfully added."
+msgstr ""
+
+#: /controllers/addresses_controller.php:47
+msgid "There was a problem adding the address, please correct the errors below."
+msgstr ""
+
+#: /controllers/addresses_controller.php:53
+#: /views/addresses/add.ctp:12
+#: /views/themed/aquabid/addresses/add.ctp:8
+#: /views/themed/tik/addresses/add.ctp:9
+#: /views/themed/yep/addresses/add.ctp:14
+msgid "Add an Address"
+msgstr ""
+
+#: /controllers/addresses_controller.php:79
+msgid "The address was successfully updated."
+msgstr ""
+
+#: /controllers/addresses_controller.php:82
+msgid "There was a problem updating the address, please correct the errors below."
+msgstr ""
+
+#: /controllers/addresses_controller.php:90
+msgid "Edit an Address"
+msgstr ""
+
+#: /controllers/auctions_controller.php:148
+#: /views/auctions/index.ctp:2;6
+#: /views/elements/admin/menu.ctp:7
+#: /views/themed/aquabid/elements/menu_categories.ctp:13
+#: /views/themed/tik/elements/menu_categories.ctp:14
+msgid "Live Auctions"
+msgstr ""
+
+#: /controllers/auctions_controller.php:163
+msgid "Coming Soon Auctions"
+msgstr ""
+
+#: /controllers/auctions_controller.php:179
+#: /views/auctions/closed.ctp:6
+#: /views/elements/admin/menu.ctp:9
+#: /views/themed/grababid/auctions/closed.ctp:2
+msgid "Closed Auctions"
+msgstr ""
+
+#: /controllers/auctions_controller.php:194
+#: /views/auctions/winners.ctp:2
+msgid "Winners"
+msgstr ""
+
+#: /controllers/auctions_controller.php:210
+msgid " Credit Auctions"
+msgstr ""
+
+#: /controllers/auctions_controller.php:219;226
+#: /controllers/bids_controller.php:59;65
+msgid "Invalid Auction."
+msgstr ""
+
+#: /controllers/auctions_controller.php:268
+#: /views/accounts/admin_user.ctp:65
+#: /views/auctions/admin_user.ctp:17;88
+#: /views/auctions/pay.ctp:6
+#: /views/auctions/winners.ctp:6
+#: /views/auctions/won.ctp:6;10
+#: /views/bidbutlers/admin_user.ctp:69
+#: /views/elements/menu_user.ctp:25
+#: /views/elements/admin/menu.ctp:10
+#: /views/referrals/admin_user.ctp:74
+#: /views/themed/aquabid/auctions/won.ctp:2;6
+#: /views/themed/aquabid/elements/menu_user.ctp:18
+#: /views/themed/bidchopper/elements/menu_user.ctp:21
+#: /views/themed/goldenbids/elements/menu_user.ctp:24
+#: /views/themed/grababid/elements/menu_user.ctp:21
+#: /views/themed/tik/elements/menu_user.ctp:23
+#: /views/themed/yep/auctions/won.ctp:3
+#: /views/themed/yep/elements/menu_user.ctp:17
+#: /views/users/admin_autobidders.ctp:47
+#: /views/users/admin_edit.ctp:45
+#: /views/users/admin_index.ctp:70
+#: /views/users/admin_view.ctp:85
+msgid "Won Auctions"
+msgstr ""
+
+#: /controllers/auctions_controller.php:272;395
+#: /views/auctions/creditcard.ctp:11
+#: /views/auctions/pay.ctp:7;11
+#: /views/themed/tik/users/index.ctp:27
+#: /views/users/index.ctp:31
+msgid "Pay for an Auction"
+msgstr ""
+
+#: /controllers/auctions_controller.php:274;280;284;397;403;407;709;714;794
+msgid "Invalid Auction"
+msgstr ""
+
+#: /controllers/auctions_controller.php:289;412
+msgid "You have already paid for this auction."
+msgstr ""
+
+#: /controllers/auctions_controller.php:315
+msgid "Please enter in your address details."
+msgstr ""
+
+#: /controllers/auctions_controller.php:361;484;605
+msgid "Free bids given for winning your first auction."
+msgstr ""
+
+#: /controllers/auctions_controller.php:373
+#: /controllers/packages_controller.php:55
+msgid "There was a problem processing your payment.  Please check your credit card details and try again.  If the problem persists try the Paypal payment option."
+msgstr ""
+
+#: /controllers/auctions_controller.php:537
+msgid "Your details have been confirmed.  We will notify you when your item has been shipped."
+msgstr ""
+
+#: /controllers/auctions_controller.php:539
+msgid "Your payment was successfully.  We will notify you when your item has been shipped."
+msgstr ""
+
+#: /controllers/auctions_controller.php:545
+msgid "Your transaction was cancelled and your auctions was not purchased."
+msgstr ""
+
+#: /controllers/auctions_controller.php:725
+msgid "%s - Auction Status Updated"
+msgstr ""
+
+#: /controllers/auctions_controller.php:730
+msgid "The auction status was successfully updated."
+msgstr ""
+
+#: /controllers/auctions_controller.php:756;761;804
+#: /controllers/image_defaults_controller.php:31;37
+#: /controllers/images_controller.php:8;14;25;30
+#: /controllers/products_controller.php:17;22
+#: /controllers/translations_controller.php:10;16;27;33;60
+msgid "The product ID was invalid."
+msgstr ""
+
+#: /controllers/auctions_controller.php:777
+msgid "The auction has been added successfully."
+msgstr ""
+
+#: /controllers/auctions_controller.php:784
+msgid "There was a problem adding the auction please review the errors below and try again."
+msgstr ""
+
+#: /controllers/auctions_controller.php:799
+msgid "The auction ID was invalid."
+msgstr ""
+
+#: /controllers/auctions_controller.php:811
+msgid "The auction has been updated successfully."
+msgstr ""
+
+#: /controllers/auctions_controller.php:818
+msgid "There was a problem updating the auction please review the errors below and try again."
+msgstr ""
+
+#: /controllers/auctions_controller.php:829;839
+msgid "Invalid id for Auction."
+msgstr ""
+
+#: /controllers/auctions_controller.php:833
+msgid "The bids were successfully refunded."
+msgstr ""
+
+#: /controllers/auctions_controller.php:843
+msgid "The auction was deleted successfully."
+msgstr ""
+
+#: /controllers/auctions_controller.php:845
+msgid "There was a problem deleting this auction."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:10
+#: /views/bidbutlers/index.ctp:6;10
+#: /views/elements/menu_user.ctp:16
+#: /views/themed/aquabid/bidbutlers/index.ctp:2;6
+#: /views/themed/aquabid/elements/menu_user.ctp:16
+#: /views/themed/bidchopper/elements/menu_user.ctp:19
+#: /views/themed/goldenbids/elements/menu_user.ctp:19
+#: /views/themed/grababid/elements/menu_user.ctp:19
+#: /views/themed/tik/bidbutlers/index.ctp:3
+#: /views/themed/tik/elements/menu_user.ctp:18
+#: /views/themed/yep/elements/menu_user.ctp:15
+msgid "My Bid Butlers"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:15;20;74;80;84;112
+msgid "Invalid bid butler"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:25
+msgid "This is a nail bitter auction, a bid butler cannot be added."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:31
+#: /models/auction.php:188
+msgid "You cannot bid on this auction as your have exceeded your bidding limit."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:48
+msgid "Bid Butler Credits"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:53
+msgid "The bid butler has been added successfully."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:56
+msgid "There was a problem adding the bid butler please review the errors below and try again."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:63
+msgid "You already have a valid bid butler on this auction you cannot add another one until the existing bid butler is used."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:69
+#: /views/auctions/view.ctp:129
+#: /views/themed/aquabid/auctions/view.ctp:98
+#: /views/themed/tik/auctions/view.ctp:125
+msgid "Add a Bid Butler"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:94
+msgid "The bid butler has been updated successfully."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:97
+msgid "There was a problem updating the bid butler please review the errors below and try again."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:102
+msgid "Edit a Bid Butler"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:107;124
+msgid "Invalid Bid butler"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:117
+msgid "Your bid butler was successfully deleted."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:120
+msgid "There was a problem deleting the bid butler please try again."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:147;152
+msgid "Invalid id for bid butler"
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:157
+msgid "The bid butler was successfully deleted."
+msgstr ""
+
+#: /controllers/bidbutlers_controller.php:159
+msgid "There was a problem deleting this bid butler."
+msgstr ""
+
+#: /controllers/bids_controller.php:49
+#: /views/bids/index.ctp:6;10
+#: /views/elements/menu_user.ctp:15
+#: /views/themed/aquabid/bids/index.ctp:2;6
+#: /views/themed/aquabid/elements/menu_user.ctp:15
+#: /views/themed/bidchopper/elements/menu_user.ctp:18
+#: /views/themed/goldenbids/elements/menu_user.ctp:18
+#: /views/themed/grababid/elements/menu_user.ctp:18
+#: /views/themed/tik/elements/menu_user.ctp:17
+#: /views/themed/yep/bids/index.ctp:3
+#: /views/themed/yep/elements/menu_user.ctp:14
+msgid "My Bids"
+msgstr ""
+
+#: /controllers/bids_controller.php:114
+msgid "The bid transaction has been added successfully."
+msgstr ""
+
+#: /controllers/bids_controller.php:117
+msgid "There was a problem adding the bid transaction please review the errors below and try again."
+msgstr ""
+
+#: /controllers/bids_controller.php:126;131
+msgid "Invalid id for bid"
+msgstr ""
+
+#: /controllers/bids_controller.php:136
+msgid "The bid transaction was successfully deleted."
+msgstr ""
+
+#: /controllers/bids_controller.php:138
+msgid "There was a problem deleting this bid transation"
+msgstr ""
+
+#: /controllers/bids_controller.php:167
+msgid "%d bids were cleared."
+msgstr ""
+
+#: /controllers/bids_controller.php:169
+#: /views/auctions/closed.ctp:13
+msgid "There are no closed auctions at the moment."
+msgstr ""
+
+#: /controllers/categories_controller.php:27
+#: /views/categories/admin_index.ctp:15
+#: /views/categories/index.ctp:2;6
+#: /views/categories/view.ctp:2
+#: /views/elements/admin/menu.ctp:33
+#: /views/themed/bidchopper/categories/index.ctp:6
+#: /views/themed/grababid/categories/index.ctp:2
+#: /views/themed/tik/categories/index.ctp:1;4
+#: /views/themed/tik/categories/view.ctp:3
+#: /views/themed/yep/categories/index.ctp:3
+msgid "Categories"
+msgstr ""
+
+#: /controllers/categories_controller.php:32;38
+msgid "Invalid Category."
+msgstr ""
+
+#: /controllers/categories_controller.php:102
+msgid "The Category has been added successfully."
+msgstr ""
+
+#: /controllers/categories_controller.php:105
+msgid "There was a problem adding the category please review the errors below and try again."
+msgstr ""
+
+#: /controllers/categories_controller.php:114
+msgid "Invalid Category"
+msgstr ""
+
+#: /controllers/categories_controller.php:126
+msgid "The category was updated successfully."
+msgstr ""
+
+#: /controllers/categories_controller.php:131
+msgid "There was a problem updating the category please review the errors below and try again."
+msgstr ""
+
+#: /controllers/categories_controller.php:143
+msgid "Invalid id for Category"
+msgstr ""
+
+#: /controllers/categories_controller.php:147
+msgid "The category was successfully deleted."
+msgstr ""
+
+#: /controllers/countries_controller.php:15
+msgid "The country has been added successfully."
+msgstr ""
+
+#: /controllers/countries_controller.php:18
+msgid "There was a problem adding the country please review the errors below and try again."
+msgstr ""
+
+#: /controllers/countries_controller.php:25
+msgid "Invalid Country"
+msgstr ""
+
+#: /controllers/countries_controller.php:30
+msgid "The country has been updated successfully."
+msgstr ""
+
+#: /controllers/countries_controller.php:33
+msgid "The Country could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/countries_controller.php:43
+msgid "Invalid id for Country"
+msgstr ""
+
+#: /controllers/countries_controller.php:47
+msgid "The country was successfully deleted."
+msgstr ""
+
+#: /controllers/credits_controller.php:12
+#: /views/credits/index.ctp:6;10
+#: /views/elements/menu_user.ctp:23
+#: /views/themed/goldenbids/elements/menu_user.ctp:22
+#: /views/themed/tik/elements/menu_user.ctp:21
+msgid "My Credits"
+msgstr ""
+
+#: /controllers/currencies_controller.php:17
+#: /controllers/departments_controller.php:25
+#: /controllers/news_controller.php:72
+msgid "Invalid News"
+msgstr ""
+
+#: /controllers/currencies_controller.php:22
+msgid "The currency has been updated successfully."
+msgstr ""
+
+#: /controllers/currencies_controller.php:25
+msgid "There was a problem editing the currency please review the errors below and try again."
+msgstr ""
+
+#: /controllers/daemons_controller.php:299
+msgid "%s - You have won an auction"
+msgstr ""
+
+#: /controllers/departments_controller.php:15
+msgid "The department has been added successfully."
+msgstr ""
+
+#: /controllers/departments_controller.php:18
+msgid "There was a problem adding the department please review the errors below and try again."
+msgstr ""
+
+#: /controllers/departments_controller.php:30
+msgid "The department has been updated successfully."
+msgstr ""
+
+#: /controllers/departments_controller.php:33
+msgid "There was a problem editing the department please review the errors below and try again."
+msgstr ""
+
+#: /controllers/departments_controller.php:43
+msgid "Invalid id for department"
+msgstr ""
+
+#: /controllers/departments_controller.php:47
+msgid "The department was successfully deleted."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:21
+msgid "The default image has been added successfully.  Now you need to load the images via the FTP.  Once this is done come back to this page and click on 'Generate Thumbs'"
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:24
+msgid "There was a problem adding the default image please review the errors below and try again."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:57
+msgid "The image(s) have been added successfully."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:60
+msgid "Please ensure you select at least one image."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:69
+msgid "Invalid id for default image"
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:73
+msgid "The default image was successfully deleted.  You will need to manually delete the image from the FTP."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:75
+#: /controllers/images_controller.php:85
+msgid "There was a problem deleting the image."
+msgstr ""
+
+#: /controllers/image_defaults_controller.php:101
+msgid "The images have been successfully thumbnailed."
+msgstr ""
+
+#: /controllers/images_controller.php:40
+msgid "The image has been added successfully."
+msgstr ""
+
+#: /controllers/images_controller.php:43
+msgid "There was a problem adding the image please review the errors below and try again."
+msgstr ""
+
+#: /controllers/images_controller.php:73
+msgid "Invalid id for Image"
+msgstr ""
+
+#: /controllers/images_controller.php:78
+msgid "The image ID was invalid."
+msgstr ""
+
+#: /controllers/images_controller.php:83
+msgid "The image was successfully deleted."
+msgstr ""
+
+#: /controllers/invites_controller.php:52
+msgid "Check out this website"
+msgstr ""
+
+#: /controllers/invites_controller.php:57
+msgid "We have sent email invitation to your friends."
+msgstr ""
+
+#: /controllers/limits_controller.php:28
+#: /views/elements/menu_user.ctp:20
+#: /views/limits/auctions.ctp:6;10
+#: /views/limits/index.ctp:6;9
+msgid "My Auction Limits"
+msgstr ""
+
+#: /controllers/limits_controller.php:106
+msgid "The limit has been added successfully."
+msgstr ""
+
+#: /controllers/limits_controller.php:109
+msgid "There was a problem adding the limit please review the errors below and try again."
+msgstr ""
+
+#: /controllers/limits_controller.php:116
+msgid "Invalid Limit"
+msgstr ""
+
+#: /controllers/limits_controller.php:121
+msgid "The limit has been updated successfully."
+msgstr ""
+
+#: /controllers/limits_controller.php:124
+msgid "There was a problem editing the limit please review the errors below and try again."
+msgstr ""
+
+#: /controllers/limits_controller.php:134
+msgid "Invalid id for limits"
+msgstr ""
+
+#: /controllers/limits_controller.php:138
+msgid "The limits was successfully deleted."
+msgstr ""
+
+#: /controllers/news_controller.php:18
+#: /views/auctions/home.ctp:9
+#: /views/news/index.ctp:2;7
+#: /views/news/view.ctp:2
+#: /views/themed/aquabid/auctions/home.ctp:9
+#: /views/themed/grababid/news/index.ctp:2
+#: /views/themed/tik/elements/latest_news.ctp:4
+#: /views/themed/tik/news/index.ctp:1;3
+#: /views/themed/tik/news/view.ctp:3
+#: /views/themed/yep/news/index.ctp:3
+msgid "Latest News"
+msgstr ""
+
+#: /controllers/news_controller.php:23;29
+msgid "Invalid News."
+msgstr ""
+
+#: /controllers/news_controller.php:62
+msgid "The news has been added successfully."
+msgstr ""
+
+#: /controllers/news_controller.php:65
+msgid "There was a problem adding the news please review the errors below and try again."
+msgstr ""
+
+#: /controllers/news_controller.php:77
+msgid "The news has been updated successfully."
+msgstr ""
+
+#: /controllers/news_controller.php:80
+msgid "There was a problem editing the news please review the errors below and try again."
+msgstr ""
+
+#: /controllers/news_controller.php:90
+msgid "Invalid id for News"
+msgstr ""
+
+#: /controllers/news_controller.php:94
+msgid "The news was successfully deleted."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:22
+msgid "You have been unsubscribed from our newsletter."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:24
+msgid "There was a problem while saving your preferences. Please try again."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:27
+msgid "Invalid email."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:45;97
+msgid "Invalid Newsletter."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:87
+msgid "The newsletter has been sent successfully."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:90
+msgid "No users are subscribed to the newsletter, so the newsletter was NOT sent."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:107
+msgid "The Newsletter has been added and can be sent by pressing the 'send' button next to the newsletter below."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:110;125
+msgid "The Newsletter could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:117
+msgid "Invalid Newsletter"
+msgstr ""
+
+#: /controllers/newsletters_controller.php:122
+msgid "The Newsletter has been saved."
+msgstr ""
+
+#: /controllers/newsletters_controller.php:135
+msgid "Invalid id for Newsletter"
+msgstr ""
+
+#: /controllers/newsletters_controller.php:139
+msgid "Newsletter deleted"
+msgstr ""
+
+#: /controllers/packages_controller.php:23
+#: /views/elements/menu_user.ctp:14
+#: /views/packages/buy.ctp:6;11
+#: /views/packages/creditcard.ctp:11
+#: /views/themed/aquabid/elements/menu_user.ctp:14
+#: /views/themed/aquabid/packages/buy.ctp:7
+#: /views/themed/aquabid/packages/creditcard.ctp:7
+#: /views/themed/bidchopper/elements/menu_user.ctp:17
+#: /views/themed/goldenbids/elements/menu_user.ctp:17
+#: /views/themed/grababid/elements/menu_user.ctp:17
+#: /views/themed/tik/elements/menu_user.ctp:16
+#: /views/themed/tik/packages/buy.ctp:2;7
+#: /views/themed/tik/packages/creditcard.ctp:1
+#: /views/themed/yep/elements/menu_user.ctp:13
+#: /views/themed/yep/packages/buy.ctp:13
+#: /views/themed/yep/packages/creditcard.ctp:3
+msgid "Purchase Bids"
+msgstr ""
+
+#: /controllers/packages_controller.php:28;33;78;83
+msgid "Invalid Package"
+msgstr ""
+
+#: /controllers/packages_controller.php:48
+msgid "You payment was successful and your bids are available for you use."
+msgstr ""
+
+#: /controllers/packages_controller.php:122
+msgid "You payment was successful and your bids are available for you use.  If you bids are not available yet, please allow a couple of minutes for them to become available."
+msgstr ""
+
+#: /controllers/packages_controller.php:127
+msgid "The transaction was cancelled and your bids were not purchased."
+msgstr ""
+
+#: /controllers/packages_controller.php:178;190
+msgid "Bids purchased - package name:"
+msgstr ""
+
+#: /controllers/packages_controller.php:208
+msgid "Referral Bids Earned for:"
+msgstr ""
+
+#: /controllers/packages_controller.php:232;241
+msgid "Free bids given for purchasing bids for the first time."
+msgstr ""
+
+#: /controllers/packages_controller.php:260
+msgid "The package has been added successfully."
+msgstr ""
+
+#: /controllers/packages_controller.php:263
+msgid "There was a problem adding the package please review the errors below and try again."
+msgstr ""
+
+#: /controllers/packages_controller.php:270
+msgid "Invalid BidPackage"
+msgstr ""
+
+#: /controllers/packages_controller.php:275
+msgid "The package has been updated successfully."
+msgstr ""
+
+#: /controllers/packages_controller.php:278
+msgid "There was a problem updating the package please review the errors below and try again."
+msgstr ""
+
+#: /controllers/packages_controller.php:288
+msgid "Invalid id for BidPackage."
+msgstr ""
+
+#: /controllers/packages_controller.php:292
+msgid "The package was successfully deleted."
+msgstr ""
+
+#: /controllers/pages_controller.php:21;29
+msgid "Invalid Page."
+msgstr ""
+
+#: /controllers/pages_controller.php:65
+msgid "%s - Contact Form Submitted"
+msgstr ""
+
+#: /controllers/pages_controller.php:69
+msgid "The contact form was successfully submitted."
+msgstr ""
+
+#: /controllers/pages_controller.php:72
+msgid "There was a problem submitting the contact form please review the errors below and try again."
+msgstr ""
+
+#: /controllers/pages_controller.php:75
+#: /views/pages/contact.ctp:1;19
+#: /views/themed/tik/pages/contact.ctp:1;19
+#: /views/themed/yep/pages/contact.ctp:3
+msgid "Contact Us"
+msgstr ""
+
+#: /controllers/pages_controller.php:94
+msgid "The page has been added successfully."
+msgstr ""
+
+#: /controllers/pages_controller.php:97
+msgid "There was a problem adding the page please review the errors below and try again."
+msgstr ""
+
+#: /controllers/pages_controller.php:104
+msgid "Invalid Page"
+msgstr ""
+
+#: /controllers/pages_controller.php:109
+msgid "The page has been updated successfully."
+msgstr ""
+
+#: /controllers/pages_controller.php:112
+msgid "There was a problem saving the page please review the errors below and try again."
+msgstr ""
+
+#: /controllers/pages_controller.php:135
+msgid "Page order has been saved"
+msgstr ""
+
+#: /controllers/pages_controller.php:143
+msgid "Invalid id for Page"
+msgstr ""
+
+#: /controllers/pages_controller.php:147
+msgid "The page was successfully deleted."
+msgstr ""
+
+#: /controllers/products_controller.php:53;82
+msgid "The product has been added HOWEVER there was a problem adding in the bidding increments.  Please edit this product now and correct the setting information."
+msgstr ""
+
+#: /controllers/products_controller.php:57
+msgid "The product has been added successfully.  <a href=\"/admin/images/index/%d\">Click here to add more images to the product</a>."
+msgstr ""
+
+#: /controllers/products_controller.php:60
+msgid "There was a problem adding the product please review the errors below and try again."
+msgstr ""
+
+#: /controllers/products_controller.php:72;110
+msgid "Invalid Product"
+msgstr ""
+
+#: /controllers/products_controller.php:101
+msgid "The product has been updated successfully."
+msgstr ""
+
+#: /controllers/products_controller.php:104
+msgid "There was a problem updating the product please review the errors below and try again."
+msgstr ""
+
+#: /controllers/products_controller.php:123
+msgid "Invalid id for Product."
+msgstr ""
+
+#: /controllers/products_controller.php:127
+msgid "The product was deleted successfully."
+msgstr ""
+
+#: /controllers/products_controller.php:129
+msgid "There was a problem deleting this product."
+msgstr ""
+
+#: /controllers/referrals_controller.php:12
+#: /views/elements/menu_user.ctp:26
+#: /views/elements/admin/menu.ctp:23
+#: /views/invites/index.ctp:6
+#: /views/referrals/admin_index.ctp:4;8
+#: /views/referrals/admin_user.ctp:5
+#: /views/referrals/index.ctp:6;10
+#: /views/referrals/pending.ctp:6
+#: /views/themed/aquabid/elements/menu_user.ctp:19
+#: /views/themed/aquabid/referrals/index.ctp:6
+#: /views/themed/bidchopper/elements/menu_user.ctp:22
+#: /views/themed/goldenbids/elements/menu_user.ctp:25
+#: /views/themed/grababid/elements/menu_user.ctp:22
+#: /views/themed/tik/elements/menu_user.ctp:24
+#: /views/themed/tik/referrals/index.ctp:5
+#: /views/themed/yep/elements/menu_user.ctp:18
+#: /views/themed/yep/referrals/index.ctp:3
+msgid "Referrals"
+msgstr ""
+
+#: /controllers/referrals_controller.php:19
+#: /views/referrals/index.ctp:22
+#: /views/referrals/pending.ctp:11
+#: /views/themed/aquabid/referrals/index.ctp:18
+#: /views/themed/aquabid/referrals/pending.ctp:7
+#: /views/themed/tik/referrals/index.ctp:17
+#: /views/themed/tik/referrals/pending.ctp:1
+#: /views/themed/yep/referrals/pending.ctp:3
+msgid "Pending Referrals"
+msgstr ""
+
+#: /controllers/setting_increments_controller.php:13
+#: /controllers/settings_controller.php:64
+msgid "Invalid Setting"
+msgstr ""
+
+#: /controllers/setting_increments_controller.php:18
+msgid "The increment has been successfully updated."
+msgstr ""
+
+#: /controllers/setting_increments_controller.php:21
+msgid "There was a problem updating the increment please review the errors below and try again."
+msgstr ""
+
+#: /controllers/settings_controller.php:69
+msgid "The setting has been successfully updated."
+msgstr ""
+
+#: /controllers/settings_controller.php:72
+msgid "There was a problem updating the setting please review the errors below and try again."
+msgstr ""
+
+#: /controllers/sources_controller.php:17;32
+msgid "The Source has been saved"
+msgstr ""
+
+#: /controllers/sources_controller.php:20;35
+msgid "The Source could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/sources_controller.php:27
+msgid "Invalid Source"
+msgstr ""
+
+#: /controllers/sources_controller.php:65
+msgid "Invalid id for Source"
+msgstr ""
+
+#: /controllers/sources_controller.php:69
+msgid "Source deleted"
+msgstr ""
+
+#: /controllers/statuses_controller.php:13
+msgid "Invalid Status"
+msgstr ""
+
+#: /controllers/statuses_controller.php:18
+msgid "The status has been updated successfully."
+msgstr ""
+
+#: /controllers/statuses_controller.php:21
+msgid "The status could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/translations_controller.php:42
+msgid "The translation has been added successfully."
+msgstr ""
+
+#: /controllers/translations_controller.php:45
+msgid "There was a problem adding the translation please review the errors below and try again."
+msgstr ""
+
+#: /controllers/translations_controller.php:54;91
+msgid "The translation ID was invalid."
+msgstr ""
+
+#: /controllers/translations_controller.php:66
+msgid "Invalid Transction"
+msgstr ""
+
+#: /controllers/translations_controller.php:71
+msgid "The translation has been updated successfully."
+msgstr ""
+
+#: /controllers/translations_controller.php:74
+msgid "There was a problem updating the translation please review the errors below and try again."
+msgstr ""
+
+#: /controllers/translations_controller.php:86
+msgid "Invalid id for Translation"
+msgstr ""
+
+#: /controllers/translations_controller.php:96
+msgid "The translation was successfully deleted."
+msgstr ""
+
+#: /controllers/translations_controller.php:98
+msgid "There was a problem deleting the translation."
+msgstr ""
+
+#: /controllers/users_controller.php:27
+msgid "You have successfully logged in."
+msgstr ""
+
+#: /controllers/users_controller.php:40
+msgid "Your account has not been actived yet or your account has been suspended."
+msgstr ""
+
+#: /controllers/users_controller.php:56
+#: /views/elements/menu_top.ctp:23
+#: /views/themed/aquabid/elements/menu_top.ctp:23
+#: /views/themed/aquabid/users/login.ctp:2
+#: /views/themed/bidchopper/elements/menu_top.ctp:18
+#: /views/themed/goldenbids/users/login.ctp:2
+#: /views/themed/grababid/users/login.ctp:2
+#: /views/themed/tik/elements/menu_top.ctp:17
+#: /views/themed/tik/users/login.ctp:1
+#: /views/themed/yep/users/login.ctp:3
+#: /views/users/login.ctp:2
+msgid "Login"
+msgstr ""
+
+#: /controllers/users_controller.php:65
+msgid "You have been successfully logged out."
+msgstr ""
+
+#: /controllers/users_controller.php:89
+#: /views/dashboards/admin_index.ctp:2;8
+msgid "Dashboard"
+msgstr ""
+
+#: /controllers/users_controller.php:96
+msgid "An email containing your account details has been sent. Please check your email."
+msgstr ""
+
+#: /controllers/users_controller.php:99;281
+msgid "Email sending failed. Please try again or contact administrator."
+msgstr ""
+
+#: /controllers/users_controller.php:102
+msgid "The email address you entered is not assigned to any member."
+msgstr ""
+
+#: /controllers/users_controller.php:105
+msgid "Reset Your Password"
+msgstr ""
+
+#: /controllers/users_controller.php:119
+msgid "Free bids given for registering."
+msgstr ""
+
+#: /controllers/users_controller.php:124
+msgid "Your account has been activated and some free bids have been added to your account. Please login using your username and password."
+msgstr ""
+
+#: /controllers/users_controller.php:126
+msgid "Your account has been activated. Please login using your username and password."
+msgstr ""
+
+#: /controllers/users_controller.php:130
+msgid "Invalid activation key or you have already been activated. Please try again or contact the administrator."
+msgstr ""
+
+#: /controllers/users_controller.php:151
+msgid "Thank you for registering.  An email has been sent to your email address, please check your email in order to activate your account.  If you fail to receive an email please check your SPAM box and add as an accepted sender."
+msgstr ""
+
+#: /controllers/users_controller.php:154
+msgid "Email sending failed. Please try again or contact the administrator."
+msgstr ""
+
+#: /controllers/users_controller.php:157
+msgid "There was a problem creating your account please review the errors below and try again."
+msgstr ""
+
+#: /controllers/users_controller.php:173
+#: /views/elements/menu_top.ctp:22
+#: /views/themed/aquabid/elements/menu_top.ctp:22
+#: /views/themed/aquabid/users/register.ctp:2;48
+#: /views/themed/bidchopper/elements/menu_top.ctp:17
+#: /views/themed/goldenbids/users/register.ctp:2
+#: /views/themed/grababid/users/register.ctp:8
+#: /views/themed/tik/elements/menu_top.ctp:16
+#: /views/themed/tik/users/register.ctp:1
+#: /views/themed/yep/users/register.ctp:3
+#: /views/users/register.ctp:2
+msgid "Register"
+msgstr ""
+
+#: /controllers/users_controller.php:183
+msgid "Your account has been updated successfully."
+msgstr ""
+
+#: /controllers/users_controller.php:186
+msgid "There was a problem updating your account please review the errors below and try again."
+msgstr ""
+
+#: /controllers/users_controller.php:194
+#: /views/elements/menu_user.ctp:5
+#: /views/themed/aquabid/elements/menu_user.ctp:5
+#: /views/themed/bidchopper/elements/menu_user.ctp:8
+#: /views/themed/goldenbids/elements/menu_user.ctp:8
+#: /views/themed/grababid/elements/menu_user.ctp:8
+#: /views/themed/grababid/users/edit.ctp:12
+#: /views/themed/tik/elements/menu_user.ctp:7
+#: /views/themed/tik/users/edit.ctp:3;9
+#: /views/themed/yep/elements/menu_user.ctp:6
+#: /views/themed/yep/users/edit.ctp:14
+#: /views/users/edit.ctp:12
+msgid "Edit Profile"
+msgstr ""
+
+#: /controllers/users_controller.php:209
+msgid "Your password has been successfully changed."
+msgstr ""
+
+#: /controllers/users_controller.php:212
+msgid "There was a problem changing your password.  Please review the errors below and try again."
+msgstr ""
+
+#: /controllers/users_controller.php:217
+#: /views/elements/menu_user.ctp:6
+#: /views/themed/aquabid/elements/menu_user.ctp:6
+#: /views/themed/bidchopper/elements/menu_user.ctp:9
+#: /views/themed/goldenbids/elements/menu_user.ctp:9
+#: /views/themed/grababid/elements/menu_user.ctp:9
+#: /views/themed/grababid/users/changepassword.ctp:12
+#: /views/themed/tik/elements/menu_user.ctp:8
+#: /views/themed/tik/users/changepassword.ctp:1;3;9;16
+#: /views/themed/yep/elements/menu_user.ctp:7
+#: /views/themed/yep/users/changepassword.ctp:3;14
+#: /views/users/changepassword.ctp:6;12;20
+msgid "Change Password"
+msgstr ""
+
+#: /controllers/users_controller.php:261
+#: /models/user.php:233
+msgid "Account Activation - %s"
+msgstr ""
+
+#: /controllers/users_controller.php:265
+msgid "Activation email has been sent to user email address."
+msgstr ""
+
+#: /controllers/users_controller.php:268
+msgid "Activation email sending failed. Please try again."
+msgstr ""
+
+#: /controllers/users_controller.php:278
+msgid "The user has been added and their username and password details have been sent to them."
+msgstr ""
+
+#: /controllers/users_controller.php:284;343
+msgid "There was a problem adding the user please review the errors below and try again."
+msgstr ""
+
+#: /controllers/users_controller.php:292;306;350;365
+msgid "Invalid User"
+msgstr ""
+
+#: /controllers/users_controller.php:297
+msgid "There user has been updated successfully."
+msgstr ""
+
+#: /controllers/users_controller.php:300
+msgid "There was a problem updating the users details please review the errors below and try again."
+msgstr ""
+
+#: /controllers/users_controller.php:315
+msgid "Invalid id for User"
+msgstr ""
+
+#: /controllers/users_controller.php:319
+msgid "The user was successfully deleted."
+msgstr ""
+
+#: /controllers/users_controller.php:321
+msgid "There was a problem deleting the user."
+msgstr ""
+
+#: /controllers/users_controller.php:340
+msgid "The auto bidder was added successfully."
+msgstr ""
+
+#: /controllers/users_controller.php:356
+msgid "The autobidder has been updated successfully."
+msgstr ""
+
+#: /controllers/users_controller.php:359
+msgid "There was a problem updating the autobidder please review the errors below and try again."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:28
+msgid "The auction has been added to your watch list."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:31
+msgid "The watchlist cannot be added."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:35
+msgid "The auction is already in your watchlist."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:39
+msgid "Invalid auction."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:46;107
+msgid "Invalid id for Watchlist"
+msgstr ""
+
+#: /controllers/watchlists_controller.php:50
+msgid "The Auction has been deleted from your watchlist."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:63
+msgid "Invalid Watchlist."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:73;91
+msgid "The Watchlist has been saved"
+msgstr ""
+
+#: /controllers/watchlists_controller.php:76;94
+msgid "The Watchlist could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/watchlists_controller.php:86
+msgid "Invalid Watchlist"
+msgstr ""
+
+#: /controllers/watchlists_controller.php:111
+msgid "Watchlist deleted"
+msgstr ""
+
+#: /models/address.php:32
+msgid "Name is required."
+msgstr ""
+
+#: /models/address.php:36
+msgid "Address (line 1) is required."
+msgstr ""
+
+#: /models/address.php:40
+msgid "City / State is required."
+msgstr ""
+
+#: /models/address.php:45
+msgid "Please ensure the postcode follows the correct format."
+msgstr ""
+
+#: /models/address.php:49
+msgid "Post Code / Zip Code is required."
+msgstr ""
+
+#: /models/address.php:54
+msgid "Please select a country from the dropdown."
+msgstr ""
+
+#: /models/address.php:58
+msgid "Phone number is required."
+msgstr ""
+
+#: /models/auction.php:145
+msgid "No bids placed yet"
+msgstr ""
+
+#: /models/auction.php:182
+msgid "You cannot bid as you are already the highest bidder"
+msgstr ""
+
+#: /models/auction.php:194
+msgid "Auction has been closed"
+msgstr ""
+
+#: /models/auction.php:201
+msgid "Auction has not started yet"
+msgstr ""
+
+#: /models/auction.php:209
+msgid "This is a peak auction"
+msgstr ""
+
+#: /models/auction.php:287
+msgid "Bid Butler"
+msgstr ""
+
+#: /models/auction.php:289
+#: /models/autobid.php:81;90;93
+msgid "Single Bid"
+msgstr ""
+
+#: /models/auction.php:307
+msgid "Your bid was placed"
+msgstr ""
+
+#: /models/auction.php:315
+msgid "%d Bid Butler + %s + %s seconds"
+msgstr ""
+
+#: /models/auction.php:317
+msgid "1 Bid Butler + %s + %s seconds"
+msgstr ""
+
+#: /models/auction.php:320
+msgid "1 Single bid + %s + %s seconds"
+msgstr ""
+
+#: /models/auction.php:328
+msgid "You have no more bids in your account"
+msgstr ""
+
+#: /models/autobid.php:88
+msgid "Bid Buddy"
+msgstr ""
+
+#: /models/bid.php:16
+#: /models/news.php:19
+msgid "Description is a required field."
+msgstr ""
+
+#: /models/bid.php:21
+msgid "The total can be a number only."
+msgstr ""
+
+#: /models/bid.php:25
+msgid "The total cannot be zero."
+msgstr ""
+
+#: /models/bid.php:29
+msgid "Total is required."
+msgstr ""
+
+#: /models/bid.php:125
+msgid "Bid Butler Refunded Bids"
+msgstr ""
+
+#: /models/bidbutler.php:16
+msgid "The minimum price must be set higher."
+msgstr ""
+
+#: /models/bidbutler.php:20
+msgid "The minimum price must be higher than the maximum price."
+msgstr ""
+
+#: /models/bidbutler.php:24
+msgid "The minimum price can be a number only."
+msgstr ""
+
+#: /models/bidbutler.php:28
+msgid "The minimum price cannot be zero."
+msgstr ""
+
+#: /models/bidbutler.php:32
+msgid "Minimum price is required."
+msgstr ""
+
+#: /models/bidbutler.php:38
+msgid "The maximum price can be a number only."
+msgstr ""
+
+#: /models/bidbutler.php:42
+msgid "The maximum price cannot be zero."
+msgstr ""
+
+#: /models/bidbutler.php:46
+msgid "Maximum price is required."
+msgstr ""
+
+#: /models/bidbutler.php:52
+msgid "Please enter in at least 2 bids."
+msgstr ""
+
+#: /models/bidbutler.php:56
+msgid "This number exceeds the number of bids you have in your account."
+msgstr ""
+
+#: /models/bidbutler.php:60
+#: /models/package.php:16
+msgid "The number of bids can be a number only."
+msgstr ""
+
+#: /models/bidbutler.php:64
+msgid "The number of bids cannot be zero or a negative number."
+msgstr ""
+
+#: /models/bidbutler.php:68
+#: /models/package.php:20
+msgid "Number of bids is required."
+msgstr ""
+
+#: /models/country.php:20
+msgid "Country name is a required field."
+msgstr ""
+
+#: /models/department.php:12
+#: /models/image_default.php:13
+#: /models/limit.php:20
+#: /models/status.php:14
+msgid "Name is a required field."
+msgstr ""
+
+#: /models/department.php:16
+#: /models/page.php:25
+#: /models/user.php:123
+msgid "The email address you entered is not valid."
+msgstr ""
+
+#: /models/image_default.php:17
+msgid "Image is a required field."
+msgstr ""
+
+#: /models/limit.php:24
+msgid "Limit is a required field."
+msgstr ""
+
+#: /models/news.php:11
+msgid "Title is a required field."
+msgstr ""
+
+#: /models/news.php:15
+msgid "Brief is a required field."
+msgstr ""
+
+#: /models/newsletter.php:14
+msgid "Subject is required"
+msgstr ""
+
+#: /models/newsletter.php:19
+msgid "Body is required"
+msgstr ""
+
+#: /models/package.php:11
+msgid "Package name is a required field."
+msgstr ""
+
+#: /models/package.php:26
+msgid "Price can be a number only."
+msgstr ""
+
+#: /models/package.php:30
+msgid "Price is required."
+msgstr ""
+
+#: /models/page.php:12
+msgid "Name is required"
+msgstr ""
+
+#: /models/page.php:16
+msgid "Title is required"
+msgstr ""
+
+#: /models/page.php:20
+msgid "Content is required"
+msgstr ""
+
+#: /models/page.php:29
+#: /models/user.php:127
+msgid "Email address is required."
+msgstr ""
+
+#: /models/page.php:34
+msgid "Department is required"
+msgstr ""
+
+#: /models/page.php:38
+msgid "Enquiry is required"
+msgstr ""
+
+#: /models/product.php:53
+msgid "Product title is a required field."
+msgstr ""
+
+#: /models/product.php:57
+msgid "Please select a category from the dropdown."
+msgstr ""
+
+#: /models/product.php:61
+msgid "RRP can be a number only."
+msgstr ""
+
+#: /models/product.php:67
+msgid "Start price can be a number only."
+msgstr ""
+
+#: /models/product.php:71
+msgid "Start price is required."
+msgstr ""
+
+#: /models/product.php:76
+msgid "Fixed price can be a number only."
+msgstr ""
+
+#: /models/product.php:81
+msgid "Minumum price can be a number only."
+msgstr ""
+
+#: /models/setting.php:12
+msgid "Value is required."
+msgstr ""
+
+#: /models/setting_increment.php:20
+msgid "Lower price can be a number only."
+msgstr ""
+
+#: /models/setting_increment.php:24
+msgid "Lower price is required."
+msgstr ""
+
+#: /models/setting_increment.php:30
+msgid "Upper price can be a number only."
+msgstr ""
+
+#: /models/setting_increment.php:34
+msgid "Upper price is required."
+msgstr ""
+
+#: /models/setting_increment.php:40
+msgid "Bid debit must be greater than zero."
+msgstr ""
+
+#: /models/setting_increment.php:44
+msgid "Bid debit can be a number only."
+msgstr ""
+
+#: /models/setting_increment.php:48
+msgid "Bid debit is required."
+msgstr ""
+
+#: /models/setting_increment.php:54
+msgid "Price increment can be a number only."
+msgstr ""
+
+#: /models/setting_increment.php:58
+msgid "Price increment is required."
+msgstr ""
+
+#: /models/setting_increment.php:64
+msgid "Time increment can be a number only."
+msgstr ""
+
+#: /models/setting_increment.php:68
+msgid "Time increment is required."
+msgstr ""
+
+#: /models/translation.php:19
+msgid "Language is required."
+msgstr ""
+
+#: /models/user.php:53
+msgid "The username is already taken."
+msgstr ""
+
+#: /models/user.php:57
+msgid "The username can contain letters and numbers only."
+msgstr ""
+
+#: /models/user.php:61
+msgid "Username must be between 3 and 16 characters long."
+msgstr ""
+
+#: /models/user.php:65
+msgid "A username is required."
+msgstr ""
+
+#: /models/user.php:83
+msgid "Password must be between 6 and 20 characters long."
+msgstr ""
+
+#: /models/user.php:87
+msgid "Password is a required field."
+msgstr ""
+
+#: /models/user.php:94
+msgid "Password and Retype Password do not match."
+msgstr ""
+
+#: /models/user.php:98
+msgid "Retype Password is a required field."
+msgstr ""
+
+#: /models/user.php:105
+msgid "First name is required."
+msgstr ""
+
+#: /models/user.php:112
+msgid "Last name is required."
+msgstr ""
+
+#: /models/user.php:119
+msgid "The email was already used by another user."
+msgstr ""
+
+#: /models/user.php:133
+msgid "Email and confirm email do not match."
+msgstr ""
+
+#: /models/user.php:137
+msgid "The confirm email you entered is not valid."
+msgstr ""
+
+#: /models/user.php:141
+msgid "Confirm email is required."
+msgstr ""
+
+#: /models/user.php:147
+msgid "The referrer username or email address you entered does not exist."
+msgstr ""
+
+#: /models/user.php:152
+msgid "Source is required."
+msgstr ""
+
+#: /models/user.php:156
+msgid "Site name is required."
+msgstr ""
+
+#: /models/user.php:161
+msgid "Please accept the terms and conditions."
+msgstr ""
+
+#: /models/user.php:231
+msgid "Account Created by Admin - %s"
+msgstr ""
+
+#: /models/user.php:274
+msgid "Account Reset - %s"
+msgstr ""
+
+#: /models/behaviors/image_upload.php:175
+msgid "Invalid file type. Only %s allowed."
+msgstr ""
+
+#: /models/behaviors/image_upload.php:182
+msgid "Invalid file type"
+msgstr ""
+
+#: /models/behaviors/image_upload.php:188
+msgid "The image you uploaded exceeds the maximum file size of %d bytes"
+msgstr ""
+
+#: /models/behaviors/image_upload.php:213;218
+msgid "%s is required."
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:9
+msgid "Users Account"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:34
+#: /views/accounts/index.ctp:35
+msgid "View this Auction"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:36
+#: /views/accounts/index.ctp:37
+msgid "%d Bids Purchased"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:49
+msgid "This user has no account transactions at the moment."
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:54
+#: /views/auctions/admin_user.ctp:77
+#: /views/bidbutlers/admin_user.ctp:58
+#: /views/bids/admin_user.ctp:73
+#: /views/limits/admin_user.ctp:74
+#: /views/referrals/admin_user.ctp:63
+#: /views/users/admin_view.ctp:74
+msgid "Edit User"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:57
+#: /views/auctions/admin_user.ctp:80
+#: /views/bidbutlers/admin_user.ctp:61
+#: /views/bids/admin_add.ctp:4
+#: /views/bids/admin_user.ctp:5
+#: /views/referrals/admin_user.ctp:66
+#: /views/users/admin_edit.ctp:37
+#: /views/users/admin_index.ctp:63
+#: /views/users/admin_view.ctp:75
+msgid "Bids"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:61
+#: /views/auctions/admin_user.ctp:84
+#: /views/bidbutlers/admin_user.ctp:5;65
+#: /views/referrals/admin_user.ctp:70
+#: /views/users/admin_edit.ctp:41
+#: /views/users/admin_index.ctp:66
+#: /views/users/admin_view.ctp:81
+msgid "Bid Butlers"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:69
+#: /views/auctions/admin_user.ctp:92
+#: /views/bidbutlers/admin_user.ctp:73
+#: /views/referrals/admin_user.ctp:78
+#: /views/users/admin_edit.ctp:49
+#: /views/users/admin_index.ctp:74
+#: /views/users/admin_view.ctp:89
+msgid "Account"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:73
+#: /views/auctions/admin_user.ctp:96
+#: /views/bidbutlers/admin_user.ctp:77
+#: /views/referrals/admin_user.ctp:82
+#: /views/users/admin_edit.ctp:53
+#: /views/users/admin_index.ctp:81
+#: /views/users/admin_view.ctp:93
+msgid "Referred Users"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:76
+#: /views/auctions/admin_user.ctp:99
+#: /views/bidbutlers/admin_user.ctp:80
+#: /views/referrals/admin_user.ctp:85
+#: /views/users/admin_edit.ctp:56
+#: /views/users/admin_view.ctp:96
+msgid "Delete User"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:76
+#: /views/auctions/admin_user.ctp:99
+#: /views/bidbutlers/admin_user.ctp:80
+#: /views/referrals/admin_user.ctp:85
+#: /views/users/admin_edit.ctp:56
+#: /views/users/admin_view.ctp:96
+msgid "Are you sure you want to delete this user?"
+msgstr ""
+
+#: /views/accounts/admin_user.ctp:78
+#: /views/auctions/admin_user.ctp:102
+#: /views/bidbutlers/admin_user.ctp:82
+#: /views/bids/admin_user.ctp:74
+#: /views/limits/admin_user.ctp:75
+#: /views/referrals/admin_user.ctp:87
+#: /views/users/admin_add.ctp:30
+#: /views/users/admin_edit.ctp:58
+#: /views/users/admin_view.ctp:98
+msgid "<< Back to users"
+msgstr ""
+
+#: /views/accounts/index.ctp:50
+#: /views/bids/index.ctp:57
+#: /views/themed/aquabid/accounts/index.ctp:46
+#: /views/themed/aquabid/bids/index.ctp:54
+#: /views/themed/yep/bids/index.ctp:58
+msgid "You have no account transations at the moment."
+msgstr ""
+
+#: /views/addresses/add.ctp:15
+#: /views/addresses/edit.ctp:16
+#: /views/categories/admin_add.ctp:17
+#: /views/categories/admin_edit.ctp:18
+#: /views/departments/admin_add.ctp:13
+#: /views/image_defaults/admin_create.ctp:15
+#: /views/limits/admin_add.ctp:13
+#: /views/news/admin_edit.ctp:14
+#: /views/packages/admin_add.ctp:13
+#: /views/packages/admin_edit.ctp:14
+#: /views/themed/aquabid/addresses/add.ctp:11
+#: /views/themed/aquabid/addresses/edit.ctp:12
+#: /views/themed/tik/addresses/add.ctp:12
+#: /views/themed/tik/addresses/edit.ctp:13
+msgid "Name *"
+msgstr ""
+
+#: /views/addresses/add.ctp:16
+#: /views/addresses/edit.ctp:17
+#: /views/themed/aquabid/addresses/add.ctp:12
+#: /views/themed/aquabid/addresses/edit.ctp:13
+#: /views/themed/tik/addresses/add.ctp:13
+#: /views/themed/tik/addresses/edit.ctp:14
+msgid "Address (line 1) *"
+msgstr ""
+
+#: /views/addresses/add.ctp:17
+#: /views/addresses/edit.ctp:18
+#: /views/themed/aquabid/addresses/add.ctp:13
+#: /views/themed/aquabid/addresses/edit.ctp:14
+#: /views/themed/tik/addresses/add.ctp:14
+#: /views/themed/tik/addresses/edit.ctp:15
+msgid "Address (line 2)"
+msgstr ""
+
+#: /views/addresses/add.ctp:18
+#: /views/addresses/edit.ctp:19
+#: /views/addresses/index.ctp:20
+#: /views/auctions/admin_winner.ctp:37
+#: /views/auctions/creditcard.ctp:41
+#: /views/auctions/pay.ctp:41
+#: /views/themed/aquabid/addresses/add.ctp:14
+#: /views/themed/aquabid/addresses/edit.ctp:15
+#: /views/themed/aquabid/addresses/index.ctp:16
+#: /views/themed/tik/addresses/add.ctp:15
+#: /views/themed/tik/addresses/edit.ctp:16
+#: /views/themed/tik/addresses/index.ctp:15
+#: /views/users/admin_view.ctp:51
+msgid "Suburb / Town"
+msgstr ""
+
+#: /views/addresses/add.ctp:19
+#: /views/addresses/edit.ctp:20
+#: /views/themed/aquabid/addresses/add.ctp:15
+#: /views/themed/aquabid/addresses/edit.ctp:16
+#: /views/themed/tik/addresses/add.ctp:16
+#: /views/themed/tik/addresses/edit.ctp:17
+msgid "City / State / County *"
+msgstr ""
+
+#: /views/addresses/add.ctp:20
+#: /views/addresses/edit.ctp:21
+#: /views/themed/aquabid/addresses/add.ctp:16
+#: /views/themed/aquabid/addresses/edit.ctp:17
+#: /views/themed/tik/addresses/add.ctp:17
+#: /views/themed/tik/addresses/edit.ctp:18
+msgid "Post Code / Zip Code *"
+msgstr ""
+
+#: /views/addresses/add.ctp:21
+#: /views/addresses/edit.ctp:22
+#: /views/themed/aquabid/addresses/add.ctp:17
+#: /views/themed/aquabid/addresses/edit.ctp:18
+#: /views/themed/tik/addresses/add.ctp:18
+#: /views/themed/tik/addresses/edit.ctp:19
+msgid "Country *"
+msgstr ""
+
+#: /views/addresses/add.ctp:22
+#: /views/addresses/edit.ctp:23
+#: /views/themed/tik/addresses/add.ctp:19
+#: /views/themed/tik/addresses/edit.ctp:20
+msgid "Phone"
+msgstr ""
+
+#: /views/addresses/add.ctp:23
+#: /views/addresses/edit.ctp:24
+#: /views/themed/aquabid/addresses/add.ctp:19
+#: /views/themed/aquabid/addresses/edit.ctp:20
+#: /views/themed/tik/addresses/add.ctp:20
+#: /views/themed/tik/addresses/edit.ctp:21
+msgid "Make all your addresses this address."
+msgstr ""
+
+#: /views/addresses/add.ctp:25
+#: /views/themed/aquabid/addresses/add.ctp:21
+msgid "Add Address"
+msgstr ""
+
+#: /views/addresses/add.ctp:29
+#: /views/addresses/edit.ctp:31
+#: /views/themed/aquabid/addresses/add.ctp:25
+#: /views/themed/aquabid/addresses/edit.ctp:27
+#: /views/themed/tik/addresses/add.ctp:26
+#: /views/themed/tik/addresses/edit.ctp:28
+#: /views/themed/yep/addresses/add.ctp:31
+#: /views/themed/yep/addresses/edit.ctp:33
+msgid "<< Back to your addresses"
+msgstr ""
+
+#: /views/addresses/edit.ctp:13
+#: /views/themed/aquabid/addresses/edit.ctp:9
+#: /views/themed/tik/addresses/edit.ctp:10
+#: /views/themed/yep/addresses/edit.ctp:15
+msgid "Update an Address"
+msgstr ""
+
+#: /views/addresses/index.ctp:18
+#: /views/auctions/admin_winner.ctp:35
+#: /views/auctions/creditcard.ctp:39
+#: /views/auctions/pay.ctp:39
+#: /views/elements/email/html/pages/contact.ctp:5
+#: /views/elements/email/text/pages/contact.ctp:5
+#: /views/image_defaults/admin_add.ctp:18
+#: /views/pages/admin_index.ctp:25;66;107
+#: /views/themed/aquabid/addresses/index.ctp:14
+#: /views/themed/tik/addresses/index.ctp:13
+#: /views/users/admin_view.ctp:49
+msgid "Name"
+msgstr ""
+
+#: /views/addresses/index.ctp:19
+#: /views/auctions/admin_winner.ctp:36
+#: /views/auctions/creditcard.ctp:40;77
+#: /views/auctions/pay.ctp:40
+#: /views/packages/creditcard.ctp:23
+#: /views/themed/aquabid/addresses/index.ctp:15
+#: /views/themed/aquabid/packages/creditcard.ctp:19
+#: /views/themed/tik/addresses/index.ctp:14
+#: /views/themed/tik/packages/creditcard.ctp:13
+#: /views/users/admin_view.ctp:50
+msgid "Address"
+msgstr ""
+
+#: /views/addresses/index.ctp:21
+#: /views/auctions/admin_winner.ctp:38
+#: /views/auctions/creditcard.ctp:42
+#: /views/auctions/pay.ctp:42
+#: /views/themed/aquabid/addresses/index.ctp:17
+#: /views/themed/tik/addresses/index.ctp:16
+#: /views/users/admin_view.ctp:52
+msgid "City / State / County"
+msgstr ""
+
+#: /views/addresses/index.ctp:22
+#: /views/auctions/admin_winner.ctp:39
+#: /views/auctions/creditcard.ctp:43
+#: /views/auctions/pay.ctp:43
+#: /views/themed/aquabid/addresses/index.ctp:18
+#: /views/themed/tik/addresses/index.ctp:17
+#: /views/users/admin_view.ctp:53
+msgid "Postcode"
+msgstr ""
+
+#: /views/addresses/index.ctp:23
+#: /views/auctions/admin_winner.ctp:40
+#: /views/auctions/creditcard.ctp:44;82
+#: /views/auctions/pay.ctp:44
+#: /views/themed/aquabid/addresses/index.ctp:19
+#: /views/themed/tik/addresses/index.ctp:18
+#: /views/users/admin_view.ctp:54
+msgid "Country"
+msgstr ""
+
+#: /views/addresses/index.ctp:24
+#: /views/auctions/admin_winner.ctp:41
+#: /views/auctions/creditcard.ctp:45
+#: /views/auctions/pay.ctp:45
+#: /views/elements/email/html/pages/contact.ctp:14
+#: /views/elements/email/text/pages/contact.ctp:14
+#: /views/themed/aquabid/addresses/index.ctp:20
+#: /views/themed/tik/addresses/index.ctp:19
+#: /views/users/admin_view.ctp:55
+msgid "Phone Number"
+msgstr ""
+
+#: /views/addresses/index.ctp:25
+#: /views/auctions/admin_index.ctp:44
+#: /views/auctions/admin_user.ctp:30
+#: /views/auctions/creditcard.ctp:46
+#: /views/auctions/pay.ctp:46
+#: /views/auctions/won.ctp:22
+#: /views/bidbutlers/admin_user.ctp:20
+#: /views/bidbutlers/index.ctp:24
+#: /views/bids/admin_index.ctp:22
+#: /views/bids/admin_user.ctp:26
+#: /views/categories/admin_index.ctp:30
+#: /views/countries/admin_index.ctp:24
+#: /views/currencies/admin_index.ctp:19
+#: /views/departments/admin_index.ctp:27
+#: /views/image_defaults/admin_index.ctp:32
+#: /views/images/admin_index.ctp:34
+#: /views/limits/admin_index.ctp:25
+#: /views/news/admin_index.ctp:25
+#: /views/packages/admin_index.ctp:25
+#: /views/packages/index.ctp:21
+#: /views/pages/admin_index.ctp:27;68;109
+#: /views/products/admin_auctions.ctp:31
+#: /views/products/admin_index.ctp:28
+#: /views/setting_increments/admin_index.ctp:19
+#: /views/settings/admin_index.ctp:17
+#: /views/statuses/admin_index.ctp:17
+#: /views/themed/aquabid/addresses/index.ctp:21
+#: /views/themed/aquabid/bidbutlers/index.ctp:20
+#: /views/themed/aquabid/packages/index.ctp:17
+#: /views/themed/tik/addresses/index.ctp:20
+#: /views/themed/tik/bidbutlers/index.ctp:20
+#: /views/themed/tik/packages/index.ctp:17
+#: /views/themed/yep/addresses/index.ctp:25
+#: /views/themed/yep/bidbutlers/index.ctp:25
+#: /views/themed/yep/packages/index.ctp:23
+#: /views/translations/admin_index.ctp:25
+#: /views/users/admin_autobidders.ctp:23
+#: /views/users/admin_index.ctp:28
+msgid "Options"
+msgstr ""
+
+#: /views/addresses/index.ctp:40
+#: /views/themed/tik/addresses/index.ctp:35
+msgid "Add a %s address"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:4
+msgid "Add Auction"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:11
+msgid "Add an Auction for: %s"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:13
+#: /views/auctions/admin_edit.ctp:14
+msgid "Start Time *"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:14
+#: /views/auctions/admin_edit.ctp:15
+msgid "End Time *"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:16
+#: /views/auctions/admin_edit.ctp:17
+msgid "** Max End Time - force this auction to close at a certain time."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:18
+#: /views/auctions/admin_edit.ctp:19
+msgid "Max End Time - force this auction to close at a certain time."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:22
+#: /views/auctions/admin_edit.ctp:23
+msgid "** Max End Time"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:25
+#: /views/auctions/admin_edit.ctp:26
+msgid "Autolist this auction - it will be automatically listed once it closes."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:26
+#: /views/auctions/admin_edit.ctp:27
+msgid "Featured Auction - Show this auction on the home page."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:27
+#: /views/auctions/admin_edit.ctp:28
+msgid "Peak Auction - Only allow bidding on the auction during a set time."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:28
+#: /views/auctions/admin_edit.ctp:29
+msgid "Nail Bitter - The Bid Butler cannot be used on this auction."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:29
+#: /views/auctions/admin_edit.ctp:30
+msgid "Active - show this auction on the website."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:33
+#: /views/auctions/admin_edit.ctp:34
+msgid "** If using the max end time, when the time is met, it will close the auction regardless if the minumum price has been met."
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:37
+msgid "Add Auction >>"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:43
+#: /views/auctions/admin_edit.ctp:44
+#: /views/products/admin_add.ctp:63
+#: /views/products/admin_edit.ctp:65
+msgid "<< Back to products"
+msgstr ""
+
+#: /views/auctions/admin_add.ctp:44
+#: /views/auctions/admin_edit.ctp:45
+msgid "<< Back to auctions"
+msgstr ""
+
+#: /views/auctions/admin_edit.ctp:11
+msgid "Edit an Auction for: %s"
+msgstr ""
+
+#: /views/auctions/admin_edit.ctp:38
+#: /views/products/admin_edit.ctp:59
+#: /views/translations/admin_edit.ctp:29
+msgid "Save Changes >>"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:11
+#: /views/dashboards/admin_index.ctp:16
+#: /views/elements/crumb_auction.ctp:3
+#: /views/products/admin_index.ctp:66
+msgid "Auctions"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:22;132
+msgid "Manage your Products"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:65;68;71;90
+#: /views/auctions/admin_user.ctp:48;51
+#: /views/newsletters/admin_index.ctp:33
+#: /views/newsletters/admin_view.ctp:20
+#: /views/products/admin_auctions.ctp:43;46;49;62
+#: /views/products/admin_index.ctp:56
+#: /views/sources/admin_index.ctp:41
+msgid "Yes"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:65;68;71;90
+#: /views/auctions/admin_user.ctp:48;51
+#: /views/newsletters/admin_index.ctp:33
+#: /views/newsletters/admin_view.ctp:20
+#: /views/products/admin_auctions.ctp:43;46;49;62
+#: /views/products/admin_index.ctp:56
+#: /views/sources/admin_index.ctp:41
+msgid "No"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:104
+#: /views/auctions/admin_user.ctp:57
+#: /views/auctions/won.ctp:61
+#: /views/categories/admin_index.ctp:45
+#: /views/newsletters/admin_index.ctp:44
+#: /views/pages/admin_index.ctp:47;88;127
+#: /views/products/admin_auctions.ctp:68
+#: /views/users/admin_edit.ctp:34
+#: /views/users/admin_index.ctp:55
+#: /views/watchlists/admin_index.ctp:43
+msgid "View"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:107
+#: /views/products/admin_auctions.ctp:71
+msgid "View Winner"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:110
+#: /views/bidbutlers/index.ctp:66
+#: /views/categories/admin_edit.ctp:4
+#: /views/categories/admin_index.ctp:46
+#: /views/countries/admin_edit.ctp:4
+#: /views/countries/admin_index.ctp:39
+#: /views/currencies/admin_edit.ctp:4
+#: /views/currencies/admin_index.ctp:37
+#: /views/departments/admin_edit.ctp:4
+#: /views/departments/admin_index.ctp:45
+#: /views/helpers/form.php:498
+#: /views/limits/admin_index.ctp:43
+#: /views/news/admin_edit.ctp:4
+#: /views/news/admin_index.ctp:43
+#: /views/newsletters/admin_edit.ctp:3
+#: /views/newsletters/admin_index.ctp:47
+#: /views/newsletters/admin_view.ctp:3
+#: /views/packages/admin_edit.ctp:4
+#: /views/packages/admin_index.ctp:46
+#: /views/pages/admin_edit.ctp:4
+#: /views/pages/admin_index.ctp:48;89;128
+#: /views/products/admin_auctions.ctp:74
+#: /views/products/admin_edit.ctp:4
+#: /views/products/admin_index.ctp:59
+#: /views/setting_increments/admin_edit.ctp:4
+#: /views/setting_increments/admin_index.ctp:40
+#: /views/settings/admin_edit.ctp:3
+#: /views/settings/admin_index.ctp:38
+#: /views/sources/admin_index.ctp:44
+#: /views/statuses/admin_edit.ctp:4
+#: /views/statuses/admin_index.ctp:31
+#: /views/themed/aquabid/bidbutlers/index.ctp:62
+#: /views/themed/tik/bidbutlers/index.ctp:62
+#: /views/themed/yep/bidbutlers/index.ctp:67
+#: /views/translations/admin_edit.ctp:6
+#: /views/translations/admin_index.ctp:40
+#: /views/users/admin_autobidder_edit.ctp:4
+#: /views/users/admin_autobidders.ctp:44
+#: /views/users/admin_edit.ctp:4
+#: /views/users/admin_index.ctp:59
+#: /views/watchlists/admin_index.ctp:44
+msgid "Edit"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:113
+#: /views/bids/admin_auction.ctp:4
+#: /views/bids/admin_index.ctp:3;9
+#: /views/elements/admin/menu.ctp:11
+msgid "Bids Placed"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:114
+#: /views/products/admin_auctions.ctp:77
+msgid "Refund Bids"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:114
+#: /views/products/admin_auctions.ctp:77
+msgid "Are you sure you want to refund ALL the bids for this auction titled: %s?  This will delete ALL the bids on the auction to date.  If the auction has a winner, you should update the status to 'Refunded' for the auction if you are refunding the winner."
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:116
+#: /views/bidbutlers/admin_user.ctp:44
+#: /views/bidbutlers/index.ctp:67
+#: /views/bids/admin_user.ctp:58
+#: /views/categories/admin_index.ctp:50
+#: /views/countries/admin_index.ctp:41
+#: /views/departments/admin_edit.ctp:23
+#: /views/departments/admin_index.ctp:46
+#: /views/image_defaults/admin_index.ctp:47
+#: /views/images/admin_index.ctp:54
+#: /views/limits/admin_edit.ctp:22
+#: /views/limits/admin_index.ctp:44
+#: /views/news/admin_edit.ctp:22
+#: /views/news/admin_index.ctp:44
+#: /views/newsletters/admin_edit.ctp:32
+#: /views/newsletters/admin_index.ctp:48
+#: /views/packages/admin_index.ctp:47
+#: /views/pages/admin_edit.ctp:34
+#: /views/pages/admin_index.ctp:49;90;129
+#: /views/products/admin_auctions.ctp:79
+#: /views/products/admin_index.ctp:68
+#: /views/sources/admin_edit.ctp:16
+#: /views/sources/admin_index.ctp:45
+#: /views/themed/aquabid/bidbutlers/index.ctp:63
+#: /views/themed/tik/bidbutlers/index.ctp:63
+#: /views/themed/yep/bidbutlers/index.ctp:68
+#: /views/translations/admin_index.ctp:41
+#: /views/users/admin_autobidders.ctp:50
+#: /views/users/admin_index.ctp:84
+#: /views/watchlists/admin_edit.ctp:15
+#: /views/watchlists/admin_index.ctp:45
+#: /views/watchlists/index.ctp:39
+msgid "Delete"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:116
+#: /views/products/admin_auctions.ctp:79
+msgid "Are you sure you want to delete auction titled: %s?"
+msgstr ""
+
+#: /views/auctions/admin_index.ctp:126
+#: /views/products/admin_auctions.ctp:89
+#: /views/themed/tik/elements/latest_auctions.ctp:17
+msgid "There are no auctions at the moment."
+msgstr ""
+
+#: /views/auctions/admin_user.ctp:59
+msgid "More Information"
+msgstr ""
+
+#: /views/auctions/admin_user.ctp:70
+msgid "This user has not won any auctions yet."
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:7
+msgid "Winner for Auction:"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:23
+#: /views/auctions/creditcard.ctp:27
+#: /views/auctions/pay.ctp:27
+msgid "Delivery Information"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:27
+msgid "Winner's Address Details"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:58
+msgid "Click here to view"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:60;69;80
+msgid "Update Status"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:72
+msgid "Inform customer"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:75
+msgid "Comment to Customer"
+msgstr ""
+
+#: /views/auctions/admin_winner.ctp:77
+msgid "(This will be added to the default email which is sent to the customer.)"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:13
+#: /views/auctions/pay.ctp:13
+msgid "You are about to pay"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:22
+#: /views/auctions/pay.ctp:22
+msgid "plus"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:23
+#: /views/auctions/pay.ctp:23
+msgid "for delivery"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:23
+#: /views/auctions/pay.ctp:23
+msgid "for the auction titled"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:31
+#: /views/auctions/pay.ctp:31
+msgid "Please confirm your address details below and ensure the details are correct before purchasing this item"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:67
+#: /views/auctions/pay.ctp:67
+msgid "Missing Address information"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:68
+#: /views/auctions/pay.ctp:68
+msgid "Before purchasing the item please <a href=\"/addresses\">click here to update your address information</a>."
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:70
+#: /views/auctions/pay.ctp:70
+msgid "If you feel there is an error, or if you are unsure about anything please <a href=\"/contact\">contact us before paying your auction</a>."
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:74
+#: /views/packages/creditcard.ctp:20
+#: /views/themed/aquabid/packages/creditcard.ctp:16
+#: /views/themed/tik/packages/creditcard.ctp:10
+#: /views/themed/yep/packages/creditcard.ctp:19
+msgid "Personal Information"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:75;90
+#: /views/newsletters/admin_edit.ctp:15
+#: /views/packages/creditcard.ctp:21;37
+#: /views/themed/aquabid/packages/creditcard.ctp:17;33
+#: /views/themed/tik/packages/creditcard.ctp:11;27
+msgid "First Name"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:76;91
+#: /views/newsletters/admin_edit.ctp:16
+#: /views/packages/creditcard.ctp:22;38
+#: /views/themed/aquabid/packages/creditcard.ctp:18;34
+#: /views/themed/tik/packages/creditcard.ctp:12;28
+msgid "Last Name"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:79
+msgid "City"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:80
+msgid "State"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:81
+msgid "Zip"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:85
+#: /views/packages/creditcard.ctp:31
+#: /views/themed/aquabid/packages/creditcard.ctp:27
+#: /views/themed/tik/packages/creditcard.ctp:21
+#: /views/themed/yep/packages/creditcard.ctp:30
+msgid "Credit Card"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:87
+msgid "Number"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:88
+msgid "Exp. date (mm/yyyy)"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:89
+msgid "CVV2"
+msgstr ""
+
+#: /views/auctions/creditcard.ctp:93
+msgid "Pay Now >>"
+msgstr ""
+
+#: /views/auctions/credits.ctp:2;6
+msgid "Credit Auctions"
+msgstr ""
+
+#: /views/auctions/credits.ctp:13
+msgid "There are no %d credit auctions at the moment."
+msgstr ""
+
+#: /views/auctions/future.ctp:2;6
+#: /views/themed/aquabid/elements/menu_categories.ctp:20
+#: /views/themed/grababid/auctions/future.ctp:2
+#: /views/themed/tik/elements/menu_categories.ctp:18
+#: /views/themed/yep/elements/menu_sub.ctp:8
+msgid "Future Auctions"
+msgstr ""
+
+#: /views/auctions/future.ctp:13
+msgid "There are no future auctions at the moment."
+msgstr ""
+
+#: /views/auctions/home.ctp:2
+#: /views/themed/aquabid/auctions/home.ctp:2
+msgid "Latest Site News"
+msgstr ""
+
+#: /views/auctions/home.ctp:4
+#: /views/themed/aquabid/auctions/home.ctp:4
+#: /views/themed/tik/elements/latest_winner.ctp:3
+msgid "Our Latest Winner!"
+msgstr ""
+
+#: /views/auctions/home.ctp:47;102
+#: /views/elements/auctions.ctp:37
+#: /views/themed/aquabid/auctions/home.ctp:43
+msgid "Latest bidder"
+msgstr ""
+
+#: /views/auctions/home.ctp:70
+#: /views/themed/aquabid/auctions/home.ctp:64
+msgid "MORE LIVE AUCTIONS!"
+msgstr ""
+
+#: /views/auctions/home.ctp:72;124;130
+#: /views/themed/aquabid/auctions/home.ctp:66;116;122
+#: /views/themed/bidchopper/auctions/home.ctp:59;116
+msgid "Click here to view all Live Auctions &raquo;"
+msgstr ""
+
+#: /views/auctions/home.ctp:101
+#: /views/themed/aquabid/auctions/home.ctp:95
+#: /views/themed/tik/auctions/home.ctp:133
+msgid "Market Price"
+msgstr ""
+
+#: /views/auctions/index.ctp:13
+msgid "There are no live auctions at the moment."
+msgstr ""
+
+#: /views/auctions/pay.ctp:73
+msgid "Credits"
+msgstr ""
+
+#: /views/auctions/pay.ctp:74
+msgid "Total"
+msgstr ""
+
+#: /views/auctions/pay.ctp:75
+msgid "Less Credits"
+msgstr ""
+
+#: /views/auctions/pay.ctp:76
+msgid "Total Payabale"
+msgstr ""
+
+#: /views/auctions/pay.ctp:80
+msgid "Payment Methods"
+msgstr ""
+
+#: /views/auctions/pay.ctp:91
+msgid "Pay Using Credit Card >>"
+msgstr ""
+
+#: /views/auctions/pay.ctp:97
+msgid "Pay Using Paypal >>"
+msgstr ""
+
+#: /views/auctions/pay.ctp:101
+msgid "Pay for this Auction >>"
+msgstr ""
+
+#: /views/auctions/pay.ctp:107
+msgid "Confirm Your Details >>"
+msgstr ""
+
+#: /views/auctions/popup.ctp:1
+msgid "The figure displayed here is an indication of how many unique bidders have placed a bid on this item."
+msgstr ""
+
+#: /views/auctions/popup.ctp:3
+msgid "It does not mean that all bidders are still bidding."
+msgstr ""
+
+#: /views/auctions/popup.ctp:5
+msgid "We cannot predict how users will bid now or in the future."
+msgstr ""
+
+#: /views/auctions/popup.ctp:7
+msgid "This figure is a guide to the level of interest in this item."
+msgstr ""
+
+#: /views/auctions/view.ctp:33
+#: /views/themed/aquabid/auctions/view.ctp:33
+#: /views/themed/grababid/auctions/view.ctp:76
+msgid "Congratulations to %s"
+msgstr ""
+
+#: /views/auctions/view.ctp:35
+#: /views/themed/aquabid/auctions/view.ctp:35
+#: /views/themed/grababid/auctions/view.ctp:78
+#: /views/themed/tik/auctions/view.ctp:101
+#: /views/themed/yep/auctions/view.ctp:115
+msgid "There was no winner"
+msgstr ""
+
+#: /views/auctions/view.ctp:40
+#: /views/themed/tik/auctions/view.ctp:81;98
+msgid "incl. VAT, excl. delivery"
+msgstr ""
+
+#: /views/auctions/view.ctp:41
+#: /views/themed/tik/auctions/view.ctp:99
+msgid "You save"
+msgstr ""
+
+#: /views/auctions/view.ctp:45
+#: /views/themed/aquabid/auctions/view.ctp:45
+#: /views/themed/tik/auctions/view.ctp:112
+msgid "Fixed price"
+msgstr ""
+
+#: /views/auctions/view.ctp:49
+msgid "Starts on"
+msgstr ""
+
+#: /views/auctions/view.ctp:51
+#: /views/themed/aquabid/auctions/view.ctp:51
+#: /views/themed/tik/auctions/view.ctp:114
+msgid "Ended on"
+msgstr ""
+
+#: /views/auctions/view.ctp:53
+#: /views/themed/aquabid/auctions/view.ctp:53
+msgid "Closes on"
+msgstr ""
+
+#: /views/auctions/view.ctp:57
+msgid "This auction will end latest on"
+msgstr ""
+
+#: /views/auctions/view.ctp:65
+msgid "This auction is a %s limit auction."
+msgstr ""
+
+#: /views/auctions/view.ctp:66
+msgid "You may win up to %s auctions in a %s day period."
+msgstr ""
+
+#: /views/auctions/view.ctp:69
+msgid "You %s bid on this auction."
+msgstr ""
+
+#: /views/auctions/view.ctp:78
+#: /views/themed/aquabid/auctions/view.ctp:59
+#: /views/themed/grababid/auctions/view.ctp:167;267
+msgid "Delivery Cost"
+msgstr ""
+
+#: /views/auctions/view.ctp:82
+#: /views/themed/aquabid/auctions/view.ctp:63
+#: /views/themed/grababid/auctions/view.ctp:172;270
+msgid "Delivery Info"
+msgstr ""
+
+#: /views/auctions/view.ctp:107
+msgid "Remove from Watchlist"
+msgstr ""
+
+#: /views/auctions/view.ctp:107
+msgid "Are you sure you want to delete the auction from your watchlist??"
+msgstr ""
+
+#: /views/auctions/view.ctp:109
+msgid "Add to Watchlist"
+msgstr ""
+
+#: /views/auctions/view.ctp:114
+#: /views/themed/aquabid/auctions/view.ctp:86
+#: /views/themed/bidchopper/auctions/view.ctp:134
+#: /views/themed/goldenbids/auctions/view.ctp:146
+#: /views/themed/grababid/auctions/view.ctp:157
+msgid "Closed"
+msgstr ""
+
+#: /views/auctions/view.ctp:117
+#: /views/themed/aquabid/auctions/view.ctp:89
+#: /views/themed/bidchopper/auctions/view.ctp:137
+#: /views/themed/goldenbids/auctions/view.ctp:149
+#: /views/themed/grababid/auctions/view.ctp:160
+#: /views/themed/tik/auctions/view.ctp:105
+#: /views/themed/yep/auctions/view.ctp:119
+msgid "Bidding will start for this auction on:"
+msgstr ""
+
+#: /views/auctions/view.ctp:145
+#: /views/themed/aquabid/auctions/view.ctp:112
+#: /views/themed/tik/auctions/view.ctp:153
+msgid "Bidding History"
+msgstr ""
+
+#: /views/auctions/view.ctp:150
+#: /views/bids/histories.ctp:4
+#: /views/themed/aquabid/auctions/view.ctp:117
+msgid "TIME"
+msgstr ""
+
+#: /views/auctions/view.ctp:151
+#: /views/bids/histories.ctp:5
+#: /views/themed/aquabid/auctions/view.ctp:118
+msgid "BIDDER"
+msgstr ""
+
+#: /views/auctions/view.ctp:152
+#: /views/bids/histories.ctp:6
+#: /views/themed/aquabid/auctions/view.ctp:119
+msgid "TYPE"
+msgstr ""
+
+#: /views/auctions/view.ctp:168
+#: /views/bids/histories.ctp:17
+#: /views/themed/aquabid/auctions/view.ctp:135
+#: /views/themed/bidchopper/auctions/view.ctp:172
+#: /views/themed/goldenbids/auctions/view.ctp:185
+#: /views/themed/grababid/auctions/view.ctp:206
+#: /views/themed/tik/auctions/view.ctp:176
+#: /views/themed/yep/auctions/view.ctp:190
+msgid "No bids have been placed yet."
+msgstr ""
+
+#: /views/auctions/view.ctp:174
+#: /views/elements/auctions.ctp:33
+#: /views/themed/aquabid/auctions/home.ctp:89
+msgid "Fixed price auction"
+msgstr ""
+
+#: /views/auctions/view.ctp:177
+msgid "Nail Bitter"
+msgstr ""
+
+#: /views/auctions/view.ctp:180
+msgid "Peak auction"
+msgstr ""
+
+#: /views/auctions/view.ctp:183
+msgid "100% Off"
+msgstr ""
+
+#: /views/auctions/view.ctp:191
+#: /views/themed/aquabid/auctions/view.ctp:152
+msgid "PRODUCT INFORMATION"
+msgstr ""
+
+#: /views/auctions/winners.ctp:13
+msgid "There are no won auctions at the moment."
+msgstr ""
+
+#: /views/auctions/won.ctp:19
+#: /views/themed/tik/auctions/home.ctp:16
+msgid "Price"
+msgstr ""
+
+#: /views/auctions/won.ctp:65;71
+#: /views/packages/buy.ctp:7
+#: /views/themed/tik/packages/buy.ctp:3
+msgid "Purchase"
+msgstr ""
+
+#: /views/auctions/won.ctp:67;73
+msgid "Confirm Details"
+msgstr ""
+
+#: /views/auctions/won.ctp:85
+#: /views/themed/aquabid/auctions/won.ctp:81
+#: /views/themed/yep/auctions/won.ctp:85
+msgid "You have not won any auctions yet."
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:7
+#: /views/themed/aquabid/bidbutlers/add.ctp:3
+#: /views/themed/bidchopper/bidbutlers/add.ctp:7
+#: /views/themed/tik/bidbutlers/add.ctp:4
+#: /views/themed/yep/bidbutlers/add.ctp:9
+msgid "Add a Bid Butler for Auction"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:9
+#: /views/themed/aquabid/bidbutlers/add.ctp:5
+#: /views/themed/bidchopper/bidbutlers/add.ctp:9
+#: /views/themed/tik/bidbutlers/add.ctp:6
+#: /views/themed/yep/bidbutlers/add.ctp:11
+msgid "Your bids will be used when the counter reaches"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:9
+#: /views/themed/aquabid/bidbutlers/add.ctp:5
+#: /views/themed/bidchopper/bidbutlers/add.ctp:9
+#: /views/themed/tik/bidbutlers/add.ctp:6
+#: /views/themed/yep/bidbutlers/add.ctp:11
+msgid "seconds."
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:12
+msgid "The minimum price must be at least %d higher than the current bid."
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:16
+#: /views/themed/aquabid/bidbutlers/add.ctp:12
+#: /views/themed/aquabid/bidbutlers/edit.ctp:12
+#: /views/themed/tik/bidbutlers/add.ctp:13
+msgid "Minimum Price *"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:17
+#: /views/themed/aquabid/bidbutlers/add.ctp:13
+#: /views/themed/aquabid/bidbutlers/edit.ctp:13
+#: /views/themed/tik/bidbutlers/add.ctp:14
+msgid "Maximum Price *"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:19
+#: /views/themed/aquabid/bidbutlers/add.ctp:15
+#: /views/themed/aquabid/bidbutlers/edit.ctp:16
+#: /views/themed/tik/bidbutlers/add.ctp:16
+msgid "Number of Bids to use *"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:22
+#: /views/themed/aquabid/bidbutlers/add.ctp:18
+#: /views/themed/tik/bidbutlers/add.ctp:19
+msgid "Add a Bid Buddy >>"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:25
+#: /views/themed/aquabid/bidbutlers/add.ctp:21
+#: /views/themed/bidchopper/bidbutlers/add.ctp:28
+#: /views/themed/tik/bidbutlers/add.ctp:22
+#: /views/themed/yep/bidbutlers/add.ctp:27
+msgid "<< Back to the auction"
+msgstr ""
+
+#: /views/bidbutlers/add.ctp:26
+#: /views/bidbutlers/edit.ctp:27
+#: /views/themed/aquabid/bidbutlers/add.ctp:22
+#: /views/themed/aquabid/bidbutlers/edit.ctp:23
+#: /views/themed/bidchopper/bidbutlers/add.ctp:29
+#: /views/themed/bidchopper/bidbutlers/edit.ctp:27
+#: /views/themed/tik/bidbutlers/add.ctp:23
+#: /views/themed/tik/bidbutlers/edit.ctp:25
+#: /views/themed/yep/bidbutlers/add.ctp:28
+#: /views/themed/yep/bidbutlers/edit.ctp:30
+msgid "<< Back to my bid butlers"
+msgstr ""
+
+#: /views/bidbutlers/admin_user.ctp:2
+#: /views/bids/admin_user.ctp:2
+#: /views/elements/admin/menu.ctp:20
+#: /views/limits/admin_user.ctp:2
+#: /views/referrals/admin_index.ctp:2
+#: /views/referrals/admin_user.ctp:2
+#: /views/users/admin_add.ctp:2
+#: /views/users/admin_autobidder_add.ctp:2
+#: /views/users/admin_autobidder_edit.ctp:2
+#: /views/users/admin_autobidders.ctp:2
+#: /views/users/admin_edit.ctp:2
+#: /views/users/admin_index.ctp:2
+msgid "Manage Users"
+msgstr ""
+
+#: /views/bidbutlers/admin_user.ctp:3
+#: /views/bids/admin_user.ctp:3
+#: /views/dashboards/admin_index.ctp:12
+#: /views/elements/admin/menu.ctp:22
+#: /views/limits/admin_user.ctp:3
+#: /views/referrals/admin_index.ctp:3
+#: /views/referrals/admin_user.ctp:3
+#: /views/users/admin_index.ctp:7
+msgid "Users"
+msgstr ""
+
+#: /views/bidbutlers/admin_user.ctp:9
+msgid "Users Bid Butlers"
+msgstr ""
+
+#: /views/bidbutlers/admin_user.ctp:44
+#: /views/bidbutlers/index.ctp:67
+#: /views/themed/aquabid/bidbutlers/index.ctp:63
+#: /views/themed/tik/bidbutlers/index.ctp:63
+#: /views/themed/yep/bidbutlers/index.ctp:68
+msgid "Are you sure you want to delete this bid butler?"
+msgstr ""
+
+#: /views/bidbutlers/admin_user.ctp:53
+msgid "This user has no bid butlers at the moment."
+msgstr ""
+
+#: /views/bidbutlers/edit.ctp:7
+#: /views/themed/aquabid/bidbutlers/edit.ctp:3
+#: /views/themed/bidchopper/bidbutlers/edit.ctp:7
+#: /views/themed/tik/bidbutlers/edit.ctp:4
+#: /views/themed/yep/bidbutlers/edit.ctp:9
+msgid "Edit My Bid Butler for Auction:"
+msgstr ""
+
+#: /views/bidbutlers/edit.ctp:10
+#: /views/themed/aquabid/bidbutlers/edit.ctp:6
+#: /views/themed/bidchopper/bidbutlers/edit.ctp:10
+#: /views/themed/tik/bidbutlers/edit.ctp:7
+#: /views/themed/yep/bidbutlers/edit.ctp:12
+msgid "Please Note: Your bids will be used when the counter reaches 30 seconds."
+msgstr ""
+
+#: /views/bidbutlers/edit.ctp:24
+#: /views/categories/admin_edit.ctp:33
+#: /views/countries/admin_edit.ctp:17
+#: /views/currencies/admin_edit.ctp:18
+#: /views/departments/admin_edit.ctp:18
+#: /views/newsletters/admin_edit.ctp:28
+#: /views/packages/admin_edit.ctp:19
+#: /views/pages/admin_edit.ctp:29
+#: /views/setting_increments/admin_edit.ctp:19
+#: /views/settings/admin_edit.ctp:17
+#: /views/statuses/admin_edit.ctp:17
+#: /views/themed/aquabid/bidbutlers/edit.ctp:20
+#: /views/themed/tik/bidbutlers/edit.ctp:20
+#: /views/themed/tik/users/edit.ctp:20
+#: /views/users/admin_autobidder_edit.ctp:17
+#: /views/users/admin_edit.ctp:30
+#: /views/users/edit.ctp:23
+msgid "Save Changes"
+msgstr ""
+
+#: /views/bidbutlers/index.ctp:76
+#: /views/themed/aquabid/bidbutlers/index.ctp:72
+#: /views/themed/tik/bidbutlers/index.ctp:72
+#: /views/themed/yep/bidbutlers/index.ctp:77
+msgid "You have no bid butlers at the moment."
+msgstr ""
+
+#: /views/bids/admin_add.ctp:5
+#: /views/categories/admin_add.ctp:4
+#: /views/countries/admin_add.ctp:4
+#: /views/departments/admin_add.ctp:4
+#: /views/images/admin_add.ctp:6
+#: /views/limits/admin_add.ctp:4
+#: /views/limits/admin_edit.ctp:4
+#: /views/news/admin_add.ctp:4
+#: /views/newsletters/admin_add.ctp:3
+#: /views/packages/admin_add.ctp:4
+#: /views/pages/admin_add.ctp:4
+#: /views/products/admin_add.ctp:4
+#: /views/themed/aquabid/addresses/add.ctp:3
+#: /views/themed/tik/addresses/add.ctp:4
+#: /views/translations/admin_add.ctp:6
+#: /views/users/admin_add.ctp:4
+#: /views/users/admin_autobidder_add.ctp:4
+msgid "Add"
+msgstr ""
+
+#: /views/bids/admin_add.ctp:10
+msgid "To manually enter in a bid transaction fill out the form below."
+msgstr ""
+
+#: /views/bids/admin_add.ctp:11
+msgid "A positive total will add bids to the users account (i.e. credit their account)."
+msgstr ""
+
+#: /views/bids/admin_add.ctp:12
+msgid "Use a negative number to subtract bids (i.e. debit) the users bid account."
+msgstr ""
+
+#: /views/bids/admin_add.ctp:17
+msgid "Add a Bid Transaction"
+msgstr ""
+
+#: /views/bids/admin_add.ctp:19
+msgid "Description *"
+msgstr ""
+
+#: /views/bids/admin_add.ctp:20
+msgid "Total *"
+msgstr ""
+
+#: /views/bids/admin_add.ctp:23
+msgid "Add Transaction"
+msgstr ""
+
+#: /views/bids/admin_add.ctp:27
+msgid "<< Back to the users bids"
+msgstr ""
+
+#: /views/bids/admin_auction.ctp:2
+#: /views/bids/admin_index.ctp:2
+#: /views/elements/admin/menu.ctp:4
+#: /views/image_defaults/admin_add.ctp:2
+#: /views/images/admin_add.ctp:2
+#: /views/images/admin_index.ctp:2
+#: /views/products/admin_add.ctp:2
+#: /views/products/admin_auctions.ctp:2
+#: /views/products/admin_edit.ctp:2
+#: /views/products/admin_index.ctp:2
+#: /views/translations/admin_add.ctp:2
+#: /views/translations/admin_edit.ctp:2
+#: /views/translations/admin_index.ctp:2
+msgid "Manage Auctions"
+msgstr ""
+
+#: /views/bids/admin_auction.ctp:10
+msgid "Bids Placed on Auction"
+msgstr ""
+
+#: /views/bids/admin_auction.ctp:50
+msgid "No bids have been placed on this auction yet."
+msgstr ""
+
+#: /views/bids/admin_clear.ctp:1
+#: /views/elements/admin/menu.ctp:48
+msgid "Database Flushing"
+msgstr ""
+
+#: /views/bids/admin_clear.ctp:3
+msgid "Flushing the database allows you to free up your server resources to be used on other aspects of the website."
+msgstr ""
+
+#: /views/bids/admin_clear.ctp:5
+msgid "You will need to run the flusher mutliple times to clear out a large database and it may take a while to run in some cases."
+msgstr ""
+
+#: /views/bids/admin_clear.ctp:7
+msgid "There are currently %d bids in the bids table."
+msgstr ""
+
+#: /views/bids/admin_clear.ctp:9
+msgid "Click here to flush the table out"
+msgstr ""
+
+#: /views/bids/admin_index.ctp:45
+msgid "Autobid"
+msgstr ""
+
+#: /views/bids/admin_index.ctp:52
+msgid "View only this Auction"
+msgstr ""
+
+#: /views/bids/admin_index.ctp:61
+msgid "No bids have been placed on the site yet."
+msgstr ""
+
+#: /views/bids/admin_user.ctp:9
+msgid "Users Bids"
+msgstr ""
+
+#: /views/bids/admin_user.ctp:13;72
+msgid "Create a new bid transaction"
+msgstr ""
+
+#: /views/bids/admin_user.ctp:30
+#: /views/bids/index.ctp:23
+#: /views/themed/aquabid/bids/index.ctp:20
+msgid "Current Balance"
+msgstr ""
+
+#: /views/bids/admin_user.ctp:58
+msgid "Are you sure you want to delete this bid translation?"
+msgstr ""
+
+#: /views/bids/admin_user.ctp:67
+msgid "This user has no account transations at the moment."
+msgstr ""
+
+#: /views/categories/admin_add.ctp:2
+#: /views/categories/admin_edit.ctp:2
+#: /views/categories/admin_index.ctp:2
+#: /views/countries/admin_add.ctp:2
+#: /views/countries/admin_edit.ctp:2
+#: /views/countries/admin_index.ctp:2
+#: /views/departments/admin_add.ctp:2
+#: /views/departments/admin_edit.ctp:2
+#: /views/departments/admin_index.ctp:2
+#: /views/elements/admin/menu.ctp:30
+#: /views/image_defaults/admin_create.ctp:2
+#: /views/image_defaults/admin_index.ctp:2
+#: /views/limits/admin_add.ctp:2
+#: /views/limits/admin_index.ctp:2
+#: /views/news/admin_edit.ctp:2
+#: /views/packages/admin_add.ctp:2
+#: /views/packages/admin_edit.ctp:2
+#: /views/packages/admin_index.ctp:2
+#: /views/setting_increments/admin_edit.ctp:2
+#: /views/setting_increments/admin_index.ctp:2
+#: /views/settings/admin_edit.ctp:2
+#: /views/settings/admin_index.ctp:2;8
+#: /views/statuses/admin_edit.ctp:2
+#: /views/statuses/admin_index.ctp:2
+msgid "Settings"
+msgstr ""
+
+#: /views/categories/admin_add.ctp:12
+msgid "Add Category"
+msgstr ""
+
+#: /views/categories/admin_add.ctp:14
+msgid "Parent Category"
+msgstr ""
+
+#: /views/categories/admin_add.ctp:23
+msgid "Add Category >>"
+msgstr ""
+
+#: /views/categories/admin_add.ctp:30
+#: /views/categories/admin_edit.ctp:40
+msgid "<< Back to categories"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:11
+msgid "Edit Category"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:24
+msgid "Current Image"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:42
+msgid "View Child Categories"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:44
+msgid "Delete category"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:44
+msgid "Are you sure you want to delete this category?"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:19;66
+msgid "Create a new category"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:48
+msgid "Child Categories"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:50
+msgid "Are you sure you want to delete the category named: %s?"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:60
+#: /views/categories/index.ctp:13
+msgid "There are no categories at the moment."
+msgstr ""
+
+#: /views/categories/view.ctp:15
+#: /views/themed/bidchopper/categories/view.ctp:15
+#: /views/themed/grababid/categories/view.ctp:16
+#: /views/themed/tik/categories/view.ctp:14
+#: /views/themed/yep/categories/view.ctp:19
+msgid "Subcategories"
+msgstr ""
+
+#: /views/categories/view.ctp:25
+#: /views/themed/tik/categories/view.ctp:24
+msgid "There are no auctions in this category at the moment."
+msgstr ""
+
+#: /views/countries/admin_add.ctp:11
+msgid "Add a Country"
+msgstr ""
+
+#: /views/countries/admin_add.ctp:16
+msgid "Add Country"
+msgstr ""
+
+#: /views/countries/admin_add.ctp:21
+#: /views/countries/admin_edit.ctp:22
+msgid "<< Back to countries"
+msgstr ""
+
+#: /views/countries/admin_edit.ctp:11
+msgid "Edit a Country"
+msgstr ""
+
+#: /views/countries/admin_index.ctp:9
+#: /views/elements/admin/menu.ctp:34
+msgid "Countries"
+msgstr ""
+
+#: /views/countries/admin_index.ctp:13;57
+msgid "Add a new Country"
+msgstr ""
+
+#: /views/countries/admin_index.ctp:41
+msgid "Are you sure you want to delete the country named: %s?"
+msgstr ""
+
+#: /views/countries/admin_index.ctp:51
+msgid "There are no countries at the moment."
+msgstr ""
+
+#: /views/credits/index.ctp:23
+msgid "Current Credits"
+msgstr ""
+
+#: /views/credits/index.ctp:40
+msgid "Credits used on:"
+msgstr ""
+
+#: /views/credits/index.ctp:42
+msgid "Credits earned on:"
+msgstr ""
+
+#: /views/credits/index.ctp:54
+msgid "You have no credits at the moment."
+msgstr ""
+
+#: /views/currencies/admin_edit.ctp:2
+#: /views/currencies/admin_index.ctp:2
+#: /views/elements/admin/menu.ctp:49
+msgid "General Settings"
+msgstr ""
+
+#: /views/currencies/admin_edit.ctp:11
+msgid "Edit a Currency:"
+msgstr ""
+
+#: /views/currencies/admin_edit.ctp:22
+msgid "<< Back to currencies"
+msgstr ""
+
+#: /views/currencies/admin_index.ctp:9
+msgid "Currencies"
+msgstr ""
+
+#: /views/currencies/admin_index.ctp:46
+msgid "There are no currencies at the moment."
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:9
+msgid "Your one stop information center."
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:13
+msgid "%s the users who are registered on the site."
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:13;17
+msgid "Manage"
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:17
+msgid "%s and control your auctions."
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:25
+#: /views/elements/email/html/users/activate.ctp:12
+#: /views/elements/email/html/users/reset.ctp:6
+#: /views/elements/email/text/users/activate.ctp:8
+#: /views/elements/email/text/users/reset.ctp:6
+#: /views/newsletters/admin_edit.ctp:18
+#: /views/themed/aquabid/users/login.ctp:8
+#: /views/themed/tik/users/login.ctp:6
+#: /views/users/login.ctp:12
+msgid "Username"
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:26
+#: /views/watchlists/admin_view.ctp:14
+msgid "Auction"
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:27
+msgid "Bid Placed"
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:52
+msgid "View all bids"
+msgstr ""
+
+#: /views/dashboards/admin_index.ctp:54
+msgid "There have not been any bids placed on the site yet."
+msgstr ""
+
+#: /views/departments/admin_add.ctp:11
+#: /views/departments/admin_edit.ctp:11
+msgid "Add a Department"
+msgstr ""
+
+#: /views/departments/admin_add.ctp:17
+msgid "Add Department"
+msgstr ""
+
+#: /views/departments/admin_add.ctp:22
+#: /views/departments/admin_edit.ctp:24
+msgid "<< Back to departments"
+msgstr ""
+
+#: /views/departments/admin_edit.ctp:23
+msgid "Are you sure you want to delete this department?"
+msgstr ""
+
+#: /views/departments/admin_index.ctp:9
+#: /views/elements/admin/menu.ctp:46
+msgid "Departments"
+msgstr ""
+
+#: /views/departments/admin_index.ctp:11
+msgid "If an email address is entered in on a department, then the contact form will be sent to that email address if that particular department is selected."
+msgstr ""
+
+#: /views/departments/admin_index.ctp:15;61
+msgid "Add a department"
+msgstr ""
+
+#: /views/departments/admin_index.ctp:46
+msgid "Are you sure you want to delete the department titled: %s?"
+msgstr ""
+
+#: /views/departments/admin_index.ctp:55
+msgid "There are no departments at the moment."
+msgstr ""
+
+#: /views/elements/auctions.ctp:20
+msgid "Won by"
+msgstr ""
+
+#: /views/elements/auctions.ctp:23
+msgid "No Winner"
+msgstr ""
+
+#: /views/elements/crumb.ctp:2
+#: /views/elements/crumb_auction.ctp:2
+#: /views/elements/menu_top.ctp:5;21
+#: /views/elements/admin/crumb.ctp:2
+#: /views/elements/admin/menu.ctp:3
+#: /views/themed/aquabid/elements/menu_top.ctp:5;21
+#: /views/themed/bidchopper/elements/menu_top.ctp:4
+#: /views/themed/tik/elements/menu_top.ctp:2;12
+msgid "Home"
+msgstr ""
+
+#: /views/elements/crumb_user.ctp:2
+#: /views/elements/menu_user.ctp:4
+#: /views/themed/aquabid/elements/menu_user.ctp:4
+#: /views/themed/bidchopper/elements/menu_user.ctp:7
+#: /views/themed/goldenbids/elements/menu_user.ctp:7
+#: /views/themed/grababid/elements/menu_user.ctp:7
+#: /views/themed/tik/elements/menu_user.ctp:6
+#: /views/themed/tik/users/index.ctp:1
+#: /views/themed/yep/elements/menu_user.ctp:5
+#: /views/users/index.ctp:5
+msgid "My %s"
+msgstr ""
+
+#: /views/elements/footer.ctp:2;2
+msgid "Payment Gateway"
+msgstr ""
+
+#: /views/elements/latest_news.ctp:10
+#: /views/news/admin_index.ctp:53
+#: /views/news/index.ctp:24
+#: /views/themed/bidchopper/elements/latest_news.ctp:13
+#: /views/themed/goldenbids/elements/latest_news.ctp:8
+#: /views/themed/grababid/news/index.ctp:24
+#: /views/themed/tik/elements/latest_news.ctp:20
+#: /views/themed/tik/news/index.ctp:22
+#: /views/themed/yep/news/index.ctp:27
+msgid "There is no news at the moment."
+msgstr ""
+
+#: /views/elements/latest_winner.ctp:23
+#: /views/themed/aquabid/elements/latest_winner.ctp:19
+msgid "Winner"
+msgstr ""
+
+#: /views/elements/latest_winner.ctp:24
+#: /views/themed/aquabid/elements/latest_winner.ctp:20
+msgid "Ended"
+msgstr ""
+
+#: /views/elements/latest_winner.ctp:25
+#: /views/themed/aquabid/elements/latest_winner.ctp:21
+msgid "End price"
+msgstr ""
+
+#: /views/elements/latest_winner.ctp:33
+#: /views/themed/aquabid/elements/latest_winner.ctp:29
+msgid "View More"
+msgstr ""
+
+#: /views/elements/latest_winner.ctp:37
+#: /views/themed/aquabid/elements/latest_winner.ctp:33
+#: /views/themed/tik/elements/latest_winner.ctp:37
+msgid "There are no winners yet!"
+msgstr ""
+
+#: /views/elements/menu_bottom.ctp:9
+#: /views/elements/menu_sub.ctp:8
+#: /views/elements/menu_top.ctp:13
+#: /views/themed/aquabid/elements/menu_top.ctp:13
+#: /views/themed/grababid/elements/menu_sub.ctp:36
+#: /views/themed/yep/elements/menu_sub.ctp:9
+msgid "Contact"
+msgstr ""
+
+#: /views/elements/menu_categories.ctp:3
+#: /views/themed/aquabid/elements/menu_categories.ctp:10
+#: /views/themed/tik/elements/menu_categories.ctp:11
+msgid "Select a Category"
+msgstr ""
+
+#: /views/elements/menu_top.ctp:6
+#: /views/elements/admin/menu.ctp:17
+#: /views/news/admin_index.ctp:9
+#: /views/themed/aquabid/elements/menu_top.ctp:6
+#: /views/themed/bidchopper/elements/menu_top.ctp:5
+#: /views/themed/tik/elements/menu_top.ctp:13
+msgid "News"
+msgstr ""
+
+#: /views/elements/menu_top.ctp:15
+#: /views/themed/aquabid/elements/menu_top.ctp:15
+#: /views/themed/tik/elements/menu_top.ctp:5
+msgid "Admin"
+msgstr ""
+
+#: /views/elements/menu_top.ctp:17
+#: /views/elements/admin/menu_top.ctp:5
+#: /views/themed/aquabid/elements/menu_top.ctp:17
+#: /views/themed/bidchopper/elements/menu_top.ctp:15
+#: /views/themed/tik/elements/menu_top.ctp:9
+msgid "Logout"
+msgstr ""
+
+#: /views/elements/menu_user.ctp:2
+#: /views/themed/aquabid/elements/menu_user.ctp:2
+#: /views/themed/bidchopper/elements/menu_user.ctp:5
+#: /views/themed/goldenbids/elements/menu_user.ctp:5
+#: /views/themed/grababid/elements/menu_user.ctp:5
+#: /views/themed/tik/elements/menu_user.ctp:4
+#: /views/themed/yep/elements/menu_user.ctp:3
+msgid "My Profile"
+msgstr ""
+
+#: /views/elements/menu_user.ctp:12
+#: /views/themed/aquabid/elements/menu_user.ctp:12
+#: /views/themed/bidchopper/elements/menu_user.ctp:15
+#: /views/themed/goldenbids/elements/menu_user.ctp:15
+#: /views/themed/grababid/elements/menu_user.ctp:15
+#: /views/themed/tik/elements/menu_user.ctp:14
+#: /views/themed/yep/elements/menu_user.ctp:11
+msgid "My Details"
+msgstr ""
+
+#: /views/elements/menu_user.ctp:18
+#: /views/watchlists/index.ctp:6;10
+msgid "My Watchlist"
+msgstr ""
+
+#: /views/elements/menu_user.ctp:27
+#: /views/invites/index.ctp:10
+#: /views/themed/bidchopper/elements/menu_user.ctp:23
+#: /views/themed/bidchopper/invites/index.ctp:10
+#: /views/themed/goldenbids/elements/menu_user.ctp:26
+#: /views/themed/grababid/elements/menu_user.ctp:23
+#: /views/themed/tik/elements/menu_user.ctp:25
+#: /views/themed/tik/invites/index.ctp:1
+#: /views/themed/yep/invites/index.ctp:3
+msgid "Invite My Friends"
+msgstr ""
+
+#: /views/elements/status.ctp:3
+msgid "Welcome %s."
+msgstr ""
+
+#: /views/elements/ticker.ctp:4
+msgid "Latest winners"
+msgstr ""
+
+#: /views/elements/ticker.ctp:16;18
+msgid "Savings"
+msgstr ""
+
+#: /views/elements/ticker.ctp:25
+msgid "No Auctions have ended yet, be the first one to win!"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:6
+#: /views/image_defaults/admin_add.ctp:3
+#: /views/images/admin_add.ctp:3
+#: /views/images/admin_index.ctp:3
+#: /views/products/admin_add.ctp:3
+#: /views/products/admin_auctions.ctp:3
+#: /views/products/admin_edit.ctp:3
+#: /views/products/admin_index.ctp:3;9
+#: /views/translations/admin_add.ctp:3
+#: /views/translations/admin_edit.ctp:3
+#: /views/translations/admin_index.ctp:3
+msgid "Products"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:8
+msgid "Coming Soon"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:14
+#: /views/limits/admin_edit.ctp:2
+#: /views/news/admin_add.ctp:2
+#: /views/news/admin_index.ctp:2
+#: /views/pages/admin_add.ctp:2
+#: /views/pages/admin_edit.ctp:2
+msgid "Manage Content"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:16
+#: /views/pages/admin_index.ctp:9
+msgid "Pages"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:25
+#: /views/users/admin_autobidder_add.ctp:3
+#: /views/users/admin_autobidder_edit.ctp:3
+#: /views/users/admin_autobidders.ctp:3;7
+msgid "Auto Bidders"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:29
+msgid "Manage Newsletters"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:32
+#: /views/packages/admin_index.ctp:8
+#: /views/packages/index.ctp:6;10
+#: /views/themed/aquabid/packages/index.ctp:6
+#: /views/themed/tik/packages/index.ctp:1;3
+#: /views/themed/yep/packages/index.ctp:12
+msgid "Packages"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:37
+msgid "Manage Currencies"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:40
+#: /views/image_defaults/admin_create.ctp:3
+#: /views/image_defaults/admin_index.ctp:3;8
+msgid "Default Images"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:43
+msgid "Auction Limits"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:45
+#: /views/statuses/admin_edit.ctp:3
+#: /views/statuses/admin_index.ctp:3;7
+msgid "Auction Statuses"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:47
+msgid "Found Us Options"
+msgstr ""
+
+#: /views/elements/admin/menu.ctp:51
+#: /views/setting_increments/admin_edit.ctp:3
+#: /views/setting_increments/admin_index.ctp:3;9
+msgid "Bidding Increments"
+msgstr ""
+
+#: /views/elements/admin/menu_top.ctp:3
+msgid "View Site"
+msgstr ""
+
+#: /views/elements/admin/menu_top.ctp:4
+msgid "Contact Feisty Sites"
+msgstr ""
+
+#: /views/elements/admin/required.ctp:2
+msgid "Fields showing * are required."
+msgstr ""
+
+#: /views/elements/email/html/auctions/status.ctp:1
+#: /views/elements/email/html/auctions/won_auction.ctp:1
+#: /views/elements/email/html/users/activate.ctp:1
+#: /views/elements/email/html/users/reset.ctp:1
+#: /views/elements/email/text/auctions/status.ctp:1
+#: /views/elements/email/text/auctions/won_auction.ctp:1
+#: /views/elements/email/text/users/activate.ctp:1
+#: /views/elements/email/text/users/reset.ctp:1
+msgid "Hi %s"
+msgstr ""
+
+#: /views/elements/email/html/auctions/status.ctp:3
+#: /views/elements/email/text/auctions/status.ctp:3
+msgid "The auction you won at from %s titled: %s has been updated."
+msgstr ""
+
+#: /views/elements/email/html/auctions/status.ctp:5
+#: /views/elements/email/text/auctions/status.ctp:5
+msgid "Your order has been updated to: %s %s"
+msgstr ""
+
+#: /views/elements/email/html/auctions/status.ctp:11
+#: /views/elements/email/html/auctions/won_auction.ctp:13
+#: /views/elements/email/html/users/activate.ctp:18
+#: /views/elements/email/html/users/reset.ctp:14
+#: /views/elements/email/text/auctions/status.ctp:11
+#: /views/elements/email/text/auctions/won_auction.ctp:9
+#: /views/elements/email/text/users/activate.ctp:13
+#: /views/elements/email/text/users/reset.ctp:13
+msgid "Thank You"
+msgstr ""
+
+#: /views/elements/email/html/auctions/status.ctp:14
+#: /views/elements/email/html/auctions/won_auction.ctp:16
+#: /views/elements/email/html/users/activate.ctp:21
+#: /views/elements/email/html/users/reset.ctp:17
+#: /views/elements/email/text/auctions/status.ctp:14
+#: /views/elements/email/text/auctions/won_auction.ctp:12
+#: /views/elements/email/text/users/activate.ctp:16
+#: /views/elements/email/text/users/reset.ctp:16
+msgid "If you never registered at our website, please contact the administrator by submitting the form on our contact page."
+msgstr ""
+
+#: /views/elements/email/html/auctions/won_auction.ctp:3
+#: /views/elements/email/text/auctions/won_auction.ctp:3
+msgid "Congratulations!  You have successfully won an auction listed at %s titled: %s"
+msgstr ""
+
+#: /views/elements/email/html/auctions/won_auction.ctp:5
+#: /views/elements/email/text/auctions/won_auction.ctp:5
+msgid "To view the details and pay for this auction please visit the following link:"
+msgstr ""
+
+#: /views/elements/email/html/pages/contact.ctp:1
+#: /views/elements/email/text/pages/contact.ctp:1
+msgid "Dear %s"
+msgstr ""
+
+#: /views/elements/email/html/pages/contact.ctp:3
+#: /views/elements/email/text/pages/contact.ctp:3
+msgid "The contact form has been submitted at your website.  Here are the details"
+msgstr ""
+
+#: /views/elements/email/html/pages/contact.ctp:7
+#: /views/elements/email/text/pages/contact.ctp:7
+#: /views/newsletters/admin_edit.ctp:17
+#: /views/themed/tik/users/reset.ctp:8
+#: /views/users/reset.ctp:13
+msgid "Email Address"
+msgstr ""
+
+#: /views/elements/email/html/pages/contact.ctp:10
+#: /views/elements/email/text/pages/contact.ctp:10
+msgid "Department"
+msgstr ""
+
+#: /views/elements/email/html/pages/contact.ctp:17
+#: /views/elements/email/text/pages/contact.ctp:17
+msgid "Enquiry"
+msgstr ""
+
+#: /views/elements/email/html/users/activate.ctp:3
+#: /views/elements/email/text/users/activate.ctp:3
+msgid "In order to access your account and more features of our website, please follow the link below to activate your account:"
+msgstr ""
+
+#: /views/elements/email/html/users/activate.ctp:11
+#: /views/elements/email/text/users/activate.ctp:7
+msgid "For your records, your login details are"
+msgstr ""
+
+#: /views/elements/email/html/users/activate.ctp:13
+#: /views/elements/email/html/users/reset.ctp:7
+#: /views/elements/email/text/users/activate.ctp:9
+#: /views/elements/email/text/users/reset.ctp:7
+#: /views/themed/aquabid/users/login.ctp:9
+#: /views/themed/tik/users/login.ctp:7
+#: /views/users/login.ctp:13
+msgid "Password"
+msgstr ""
+
+#: /views/elements/email/html/users/activate.ctp:16
+#: /views/elements/email/html/users/reset.ctp:12
+#: /views/elements/email/text/users/activate.ctp:11
+#: /views/elements/email/text/users/reset.ctp:11
+msgid "Enjoy the services!"
+msgstr ""
+
+#: /views/elements/email/html/users/reset.ctp:3
+#: /views/elements/email/text/users/reset.ctp:3
+msgid "You or someone pretending to be you have requested that your account details be reset at %s."
+msgstr ""
+
+#: /views/elements/email/html/users/reset.ctp:5
+#: /views/elements/email/text/users/reset.ctp:5
+msgid "Your login details are"
+msgstr ""
+
+#: /views/elements/email/html/users/reset.ctp:10
+#: /views/elements/email/text/users/reset.ctp:9
+msgid "Please change your password immediately after entering the application."
+msgstr ""
+
+#: /views/errors/error404.ctp:1
+msgid "Not Found"
+msgstr ""
+
+#: /views/helpers/form.php:277;1057
+#: /views/limits/admin_edit.ctp:18
+#: /views/news/admin_edit.ctp:18
+#: /views/sources/admin_add.ctp:10
+#: /views/sources/admin_edit.ctp:11
+#: /views/watchlists/admin_add.ctp:10
+#: /views/watchlists/admin_edit.ctp:11
+msgid "Submit"
+msgstr ""
+
+#: /views/helpers/form.php:405
+msgid "Error in field %s"
+msgstr ""
+
+#: /views/helpers/form.php:496
+msgid "New"
+msgstr ""
+
+#: /views/helpers/form.php:1831
+msgid "January"
+msgstr ""
+
+#: /views/helpers/form.php:1832
+msgid "February"
+msgstr ""
+
+#: /views/helpers/form.php:1833
+msgid "March"
+msgstr ""
+
+#: /views/helpers/form.php:1834
+msgid "April"
+msgstr ""
+
+#: /views/helpers/form.php:1835
+msgid "May"
+msgstr ""
+
+#: /views/helpers/form.php:1836
+msgid "June"
+msgstr ""
+
+#: /views/helpers/form.php:1837
+msgid "July"
+msgstr ""
+
+#: /views/helpers/form.php:1838
+msgid "August"
+msgstr ""
+
+#: /views/helpers/form.php:1839
+msgid "September"
+msgstr ""
+
+#: /views/helpers/form.php:1840
+msgid "October"
+msgstr ""
+
+#: /views/helpers/form.php:1841
+msgid "November"
+msgstr ""
+
+#: /views/helpers/form.php:1842
+msgid "December"
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:5
+#: /views/images/admin_add.ctp:5
+#: /views/images/admin_index.ctp:5
+msgid "Product Images"
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:6
+msgid "Select Default"
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:14
+msgid "Select Image(s) for: "
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:19
+msgid "Image"
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:42
+msgid "Select Image >>"
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:45
+#: /views/image_defaults/admin_index.ctp:57
+msgid "There are no default images at the moment."
+msgstr ""
+
+#: /views/image_defaults/admin_add.ctp:49
+#: /views/images/admin_add.ctp:21
+msgid "<< Back to images for "
+msgstr ""
+
+#: /views/image_defaults/admin_create.ctp:4
+msgid "Create"
+msgstr ""
+
+#: /views/image_defaults/admin_create.ctp:12
+msgid "Create Default Image"
+msgstr ""
+
+#: /views/image_defaults/admin_create.ctp:16
+msgid "Image (file name) *"
+msgstr ""
+
+#: /views/image_defaults/admin_create.ctp:19
+msgid "Add Default Image >>"
+msgstr ""
+
+#: /views/image_defaults/admin_create.ctp:26
+msgid "<< Back to default images"
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:10
+msgid "Default Images allow you to set different images for different versions of your website."
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:12
+msgid "In the CMS add the file name of the image you which to create.  Then using your favour FTP client, connect to the FTP and load the images into the first folder.  The folder you want is 'app/webroot/img/default_images'"
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:14
+msgid "Thumbnail Generator"
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:16
+msgid "Click here to run the thumbnail generator"
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:20;62
+msgid "Create a new default image"
+msgstr ""
+
+#: /views/image_defaults/admin_index.ctp:47
+msgid "Are you sure you want to delete this default image?"
+msgstr ""
+
+#: /views/images/admin_add.ctp:13
+msgid "Add an Image to"
+msgstr ""
+
+#: /views/images/admin_add.ctp:17
+msgid "Upload Image >>"
+msgstr ""
+
+#: /views/images/admin_index.ctp:10
+msgid "Images for"
+msgstr ""
+
+#: /views/images/admin_index.ctp:14;69
+msgid "Upload a new image"
+msgstr ""
+
+#: /views/images/admin_index.ctp:16;71
+msgid "Add a default image"
+msgstr ""
+
+#: /views/images/admin_index.ctp:25
+msgid "To change the order that the images are displayed, drag and drop the ordering by clicking and draging on the table below."
+msgstr ""
+
+#: /views/images/admin_index.ctp:27
+msgid "The first image will be the one that shows as the thumbnail in the auction listing."
+msgstr ""
+
+#: /views/images/admin_index.ctp:54
+msgid "Are you sure you want to delete this image?"
+msgstr ""
+
+#: /views/images/admin_index.ctp:64
+msgid "There are no images at the moment."
+msgstr ""
+
+#: /views/images/admin_index.ctp:73
+msgid "<< Back to Products"
+msgstr ""
+
+#: /views/invites/index.ctp:13
+#: /views/themed/tik/invites/index.ctp:8
+msgid "Fill your friends email addresses, separate email by comma (,)"
+msgstr ""
+
+#: /views/invites/index.ctp:18
+#: /views/themed/tik/invites/index.ctp:13
+msgid "Invite Message"
+msgstr ""
+
+#: /views/invites/index.ctp:21
+#: /views/themed/tik/invites/index.ctp:16
+msgid "Invite Now"
+msgstr ""
+
+#: /views/invites/index.ctp:24
+msgid "Import your contact from webmail services"
+msgstr ""
+
+#: /views/invites/index.ctp:35
+msgid "Import"
+msgstr ""
+
+#: /views/invites/index.ctp:39
+msgid "Please wait while we importing your contacts..."
+msgstr ""
+
+#: /views/layouts/admin.ctp:8
+msgid "Feisty CMS"
+msgstr ""
+
+#: /views/layouts/default.ctp:35
+msgid "Swoopo Clone auctions are active between 6:00am and 1:00am"
+msgstr ""
+
+#: /views/layouts/email/html/newsletter.ctp:6
+#: /views/users/admin_view.ctp:26
+msgid "Newsletter"
+msgstr ""
+
+#: /views/layouts/email/html/newsletter.ctp:41
+msgid "Unsubscribe"
+msgstr ""
+
+#: /views/limits/admin_add.ctp:11;17
+msgid "Add Limit"
+msgstr ""
+
+#: /views/limits/admin_add.ctp:14
+#: /views/news/admin_edit.ctp:15
+msgid "Limit *"
+msgstr ""
+
+#: /views/limits/admin_add.ctp:21
+msgid "<< Back to the limits"
+msgstr ""
+
+#: /views/limits/admin_edit.ctp:11
+msgid "Edit Limit"
+msgstr ""
+
+#: /views/limits/admin_edit.ctp:22
+#: /views/newsletters/admin_edit.ctp:32
+#: /views/newsletters/admin_view.ctp:27
+#: /views/sources/admin_edit.ctp:16
+#: /views/watchlists/admin_edit.ctp:15
+#: /views/watchlists/admin_index.ctp:45
+#: /views/watchlists/admin_view.ctp:34
+#: /views/watchlists/index.ctp:39
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /views/limits/admin_edit.ctp:23
+msgid "List Limits"
+msgstr ""
+
+#: /views/limits/admin_index.ctp:9
+#: /views/limits/admin_user.ctp:5
+#: /views/users/admin_index.ctp:77
+msgid "Limits"
+msgstr ""
+
+#: /views/limits/admin_index.ctp:13;59
+msgid "Add a limit"
+msgstr ""
+
+#: /views/limits/admin_index.ctp:44
+msgid "Are you sure you want to delete the limit named: %s?"
+msgstr ""
+
+#: /views/limits/admin_index.ctp:53
+msgid "There are no limits at the moment."
+msgstr ""
+
+#: /views/limits/admin_user.ctp:9
+msgid "Users Limits"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:14
+#: /views/limits/auctions.ctp:15
+msgid "Status"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:15
+#: /views/limits/auctions.ctp:16
+msgid "Auction Title"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:16
+#: /views/limits/auctions.ctp:17
+msgid "Information"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:17
+#: /views/limits/auctions.ctp:18
+msgid "Group"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:32
+#: /views/limits/auctions.ctp:31
+msgid "You Won!"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:36
+msgid "This user is leading the bidding!"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:38
+msgid "This auction slot will become available when the users last bid has been outbid by another bidder."
+msgstr ""
+
+#: /views/limits/admin_user.ctp:40
+#: /views/limits/auctions.ctp:39
+msgid "You have won this auction!"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:42
+#: /views/limits/auctions.ctp:41
+msgid "This auction slot will become available after the auction has been closed for"
+msgstr ""
+
+#: /views/limits/admin_user.ctp:42
+#: /views/limits/auctions.ctp:41
+msgid "days."
+msgstr ""
+
+#: /views/limits/admin_user.ctp:63
+#: /views/limits/auctions.ctp:62
+msgid "free"
+msgstr ""
+
+#: /views/limits/auctions.ctp:35
+msgid "You are leading the bidding!"
+msgstr ""
+
+#: /views/limits/auctions.ctp:37
+msgid "This auction slot will become available when your last bid has been outbid by another bidder."
+msgstr ""
+
+#: /views/limits/index.ctp:40
+msgid "There is no auction limit at the moment"
+msgstr ""
+
+#: /views/news/admin_add.ctp:11
+msgid "Add a News Article"
+msgstr ""
+
+#: /views/news/admin_add.ctp:20
+msgid "Add Article"
+msgstr ""
+
+#: /views/news/admin_add.ctp:25
+msgid "<< Back to news articles"
+msgstr ""
+
+#: /views/news/admin_edit.ctp:11
+msgid "Edit a Limit"
+msgstr ""
+
+#: /views/news/admin_edit.ctp:22
+msgid "Are you sure you want to delete this limit?"
+msgstr ""
+
+#: /views/news/admin_edit.ctp:23
+msgid "<< Back to limits"
+msgstr ""
+
+#: /views/news/admin_index.ctp:13;59
+msgid "Add a news article"
+msgstr ""
+
+#: /views/news/admin_index.ctp:44
+msgid "Are you sure you want to delete the article titled: %s?"
+msgstr ""
+
+#: /views/news/view.ctp:14
+msgid "<< Back to news"
+msgstr ""
+
+#: /views/newsletters/admin_add.ctp:10;29
+msgid "Add Newsletter"
+msgstr ""
+
+#: /views/newsletters/admin_add.ctp:25
+msgid "Body"
+msgstr ""
+
+#: /views/newsletters/admin_add.ctp:33
+#: /views/newsletters/admin_edit.ctp:33
+#: /views/newsletters/admin_view.ctp:29
+msgid "List Newsletters"
+msgstr ""
+
+#: /views/newsletters/admin_edit.ctp:10
+#: /views/newsletters/admin_view.ctp:26
+msgid "Edit Newsletter"
+msgstr ""
+
+#: /views/newsletters/admin_edit.ctp:12
+msgid "Pre Defined Variables"
+msgstr ""
+
+#: /views/newsletters/admin_edit.ctp:14
+msgid "By entering in the following variables in either the subject or body of the newsletter, the variables will be replaced by the users details:"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:7
+#: /views/newsletters/admin_view.ctp:7
+msgid "Newsletters"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:18
+#: /views/sources/admin_index.ctp:25
+#: /views/watchlists/admin_index.ctp:16
+#: /views/watchlists/index.ctp:18
+msgid "Actions"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:46
+msgid "Send"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:46
+msgid "Are you sure you want to send the newsletter with the subject: %s?"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:48
+msgid "Are you sure you want to delete the newsletter with the subject: %s?"
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:56
+msgid "There are no newsletters at the moment."
+msgstr ""
+
+#: /views/newsletters/admin_index.ctp:61
+#: /views/newsletters/admin_view.ctp:30
+msgid "New Newsletter"
+msgstr ""
+
+#: /views/newsletters/admin_view.ctp:11
+#: /views/watchlists/admin_view.ctp:19
+msgid "Created"
+msgstr ""
+
+#: /views/newsletters/admin_view.ctp:15
+#: /views/watchlists/admin_view.ctp:24
+msgid "Modified"
+msgstr ""
+
+#: /views/newsletters/admin_view.ctp:19
+msgid "Sent"
+msgstr ""
+
+#: /views/newsletters/admin_view.ctp:27
+msgid "Delete Newsletter"
+msgstr ""
+
+#: /views/packages/admin_add.ctp:11
+msgid "Add a Package"
+msgstr ""
+
+#: /views/packages/admin_add.ctp:14
+#: /views/packages/admin_edit.ctp:15
+msgid "Number of Bids *"
+msgstr ""
+
+#: /views/packages/admin_add.ctp:15
+#: /views/packages/admin_edit.ctp:16
+msgid "Price *"
+msgstr ""
+
+#: /views/packages/admin_add.ctp:25
+#: /views/packages/admin_edit.ctp:26
+#: /views/sources/admin_edit.ctp:15
+msgid "<< Back to packages"
+msgstr ""
+
+#: /views/packages/admin_edit.ctp:11
+msgid "Edit a Package"
+msgstr ""
+
+#: /views/packages/admin_edit.ctp:27
+msgid "Delete package"
+msgstr ""
+
+#: /views/packages/admin_edit.ctp:27
+msgid "Are you sure you want to delete this package?"
+msgstr ""
+
+#: /views/packages/admin_index.ctp:12
+msgid "Create a new package"
+msgstr ""
+
+#: /views/packages/admin_index.ctp:47
+msgid "Are you sure you want to delete this package named: %s?"
+msgstr ""
+
+#: /views/packages/admin_index.ctp:56
+#: /views/packages/index.ctp:58
+#: /views/themed/aquabid/packages/index.ctp:54
+#: /views/themed/tik/elements/packages.ctp:17
+#: /views/themed/tik/packages/index.ctp:54
+#: /views/themed/yep/packages/index.ctp:60
+msgid "There are no packages at the moment."
+msgstr ""
+
+#: /views/packages/admin_index.ctp:62
+msgid "Create a new bid package"
+msgstr ""
+
+#: /views/packages/buy.ctp:14
+#: /views/packages/creditcard.ctp:14
+#: /views/themed/aquabid/packages/creditcard.ctp:10
+#: /views/themed/tik/packages/buy.ctp:10
+#: /views/themed/tik/packages/creditcard.ctp:4
+msgid "You are about to purchase the bid package called %s for a price of %s"
+msgstr ""
+
+#: /views/packages/buy.ctp:19;23
+#: /views/packages/creditcard.ctp:40
+#: /views/themed/aquabid/packages/buy.ctp:15;19
+#: /views/themed/aquabid/packages/creditcard.ctp:36
+#: /views/themed/tik/packages/buy.ctp:15;19
+#: /views/themed/tik/packages/creditcard.ctp:30
+msgid "Purchase this package"
+msgstr ""
+
+#: /views/packages/creditcard.ctp:26
+#: /views/themed/aquabid/packages/creditcard.ctp:22
+#: /views/themed/tik/packages/creditcard.ctp:16
+msgid "State / County"
+msgstr ""
+
+#: /views/packages/creditcard.ctp:27
+#: /views/themed/aquabid/packages/creditcard.ctp:23
+#: /views/themed/tik/packages/creditcard.ctp:17
+msgid "Zip / Postcode"
+msgstr ""
+
+#: /views/packages/index.ctp:42
+#: /views/themed/aquabid/packages/index.ctp:38
+#: /views/themed/tik/packages/index.ctp:38
+#: /views/themed/yep/packages/index.ctp:44
+msgid "Purchase Using Paypal"
+msgstr ""
+
+#: /views/packages/index.ctp:45;47
+#: /views/themed/aquabid/packages/index.ctp:41;43
+#: /views/themed/tik/packages/index.ctp:41;43
+#: /views/themed/yep/packages/index.ctp:47;49
+msgid "Purchase Using Credit Card"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:11
+msgid "Add a Page"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:13
+#: /views/pages/admin_edit.ctp:14
+msgid "Page Name *"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:14
+#: /views/pages/admin_edit.ctp:15
+msgid "Meta Title *"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:17
+#: /views/pages/admin_edit.ctp:18
+msgid "Content *"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:23
+#: /views/pages/admin_edit.ctp:24
+msgid "Show this page in the top menu?"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:24
+#: /views/pages/admin_edit.ctp:25
+msgid "Show this page in the bottom menu?"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:28
+msgid "Add Page"
+msgstr ""
+
+#: /views/pages/admin_add.ctp:33
+#: /views/pages/admin_edit.ctp:35
+msgid "<< Back to pages"
+msgstr ""
+
+#: /views/pages/admin_edit.ctp:11
+msgid "Edit a Page"
+msgstr ""
+
+#: /views/pages/admin_edit.ctp:34
+msgid "Are you sure you want to delete this page?"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:2
+msgid "Manage Pages"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:13;143
+msgid "Add a new page"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:17
+msgid "Top Menu Pages"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:20;61
+msgid "To change the order that the pages are displayed, drag and drop the ordering by clicking and draging on the table below."
+msgstr ""
+
+#: /views/pages/admin_index.ctp:26;67;108
+msgid "Last Modified"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:49;90;129
+msgid "Are you sure you want to delete the page named: %s?"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:55
+msgid "There are no top menu pages at the moment."
+msgstr ""
+
+#: /views/pages/admin_index.ctp:58
+msgid "Bottom Menu Pages"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:96
+msgid "There are no bottom menu pages at the moment."
+msgstr ""
+
+#: /views/pages/admin_index.ctp:99
+msgid "Static Pages"
+msgstr ""
+
+#: /views/pages/admin_index.ctp:101
+msgid "Static pages are not assigned to either the top menu or the bottom menu."
+msgstr ""
+
+#: /views/pages/admin_index.ctp:135
+msgid "There are no static pages at the moment."
+msgstr ""
+
+#: /views/pages/contact.ctp:3
+#: /views/themed/tik/pages/contact.ctp:3
+msgid "Contact us using the contact form below"
+msgstr ""
+
+#: /views/products/admin_add.ctp:11
+#: /views/products/admin_index.ctp:13;84
+msgid "Add a Product"
+msgstr ""
+
+#: /views/products/admin_add.ctp:18
+#: /views/products/admin_edit.ctp:19
+msgid "Description"
+msgstr ""
+
+#: /views/products/admin_add.ctp:49
+#: /views/products/admin_edit.ctp:51
+msgid "The 'minimum price' allows you to guarantee that the auction will not close before the minimum price is set."
+msgstr ""
+
+#: /views/products/admin_add.ctp:50
+#: /views/products/admin_edit.ctp:52
+msgid "By allowing autobidders to bid on the auction, autobidders will automatically bid on the auction."
+msgstr ""
+
+#: /views/products/admin_add.ctp:51
+#: /views/products/admin_edit.ctp:53
+msgid "Use the 'Autobid Limit' to set the maximum number of autobids which will be placed simultaneously before the auction closes.  If the limit is met, an autobidder will win the auction. Set this to 0 to not use this feature."
+msgstr ""
+
+#: /views/products/admin_add.ctp:53
+#: /views/products/admin_edit.ctp:55
+msgid "Please note, every time an auto bid is placed, the minimum price will extend by the bid increase amount to ensure that you no not undersell the product."
+msgstr ""
+
+#: /views/products/admin_add.ctp:57
+msgid "Add Product >>"
+msgstr ""
+
+#: /views/products/admin_auctions.ctp:10
+msgid "Auctions for: "
+msgstr ""
+
+#: /views/products/admin_auctions.ctp:14;95
+msgid "Create an Auction"
+msgstr ""
+
+#: /views/products/admin_edit.ctp:11
+msgid "Edit a Product"
+msgstr ""
+
+#: /views/products/admin_index.ctp:60
+msgid "Images"
+msgstr ""
+
+#: /views/products/admin_index.ctp:62
+#: /views/translations/admin_add.ctp:5
+#: /views/translations/admin_edit.ctp:5
+#: /views/translations/admin_index.ctp:5;10
+msgid "Translations"
+msgstr ""
+
+#: /views/products/admin_index.ctp:64
+msgid "Create Auction"
+msgstr ""
+
+#: /views/products/admin_index.ctp:68
+msgid "Are you sure you want to delete product titled: %s?"
+msgstr ""
+
+#: /views/products/admin_index.ctp:78
+msgid "There are no products at the moment."
+msgstr ""
+
+#: /views/referrals/admin_index.ctp:57
+msgid "There are no referrals yet."
+msgstr ""
+
+#: /views/referrals/admin_user.ctp:9
+msgid "User Referrals"
+msgstr ""
+
+#: /views/referrals/admin_user.ctp:58
+msgid "This user has not referred any members yet."
+msgstr ""
+
+#: /views/referrals/index.ctp:12
+#: /views/themed/aquabid/referrals/index.ctp:8
+#: /views/themed/tik/referrals/index.ctp:7
+msgid "How it Works"
+msgstr ""
+
+#: /views/referrals/index.ctp:14
+#: /views/themed/aquabid/referrals/index.ctp:10
+#: /views/themed/tik/referrals/index.ctp:9
+msgid "Earn %s free bids each time you refer a user who signs up and purchases some bids."
+msgstr ""
+
+#: /views/referrals/index.ctp:16
+#: /views/themed/aquabid/referrals/index.ctp:12
+#: /views/themed/tik/referrals/index.ctp:11
+msgid "Ask the new user to enter in your username or email address in the 'Refer' box when they register, or simply ask them to vist the following link:"
+msgstr ""
+
+#: /views/referrals/index.ctp:20
+#: /views/themed/aquabid/referrals/index.ctp:16
+#: /views/themed/tik/referrals/index.ctp:15
+msgid "You can also invite members from various social network websites and popular free email services by %s."
+msgstr ""
+
+#: /views/referrals/index.ctp:24
+#: /views/referrals/pending.ctp:13
+#: /views/themed/aquabid/referrals/index.ctp:20
+#: /views/themed/aquabid/referrals/pending.ctp:9
+#: /views/themed/tik/referrals/index.ctp:19
+#: /views/themed/tik/referrals/pending.ctp:8
+msgid "Pending referrals are users who you have referred who have not purchased any bids yet."
+msgstr ""
+
+#: /views/referrals/index.ctp:25
+#: /views/themed/aquabid/referrals/index.ctp:21
+#: /views/themed/tik/referrals/index.ctp:20
+msgid "Click here to view your pending referrals"
+msgstr ""
+
+#: /views/referrals/index.ctp:27
+#: /views/themed/aquabid/referrals/index.ctp:23
+#: /views/themed/tik/referrals/index.ctp:22
+msgid "Confirmed Referrals"
+msgstr ""
+
+#: /views/referrals/index.ctp:31
+msgid "You have referred and received free bids for signing up the following users."
+msgstr ""
+
+#: /views/referrals/index.ctp:74
+#: /views/themed/aquabid/referrals/index.ctp:70
+#: /views/themed/tik/referrals/index.ctp:70
+#: /views/themed/yep/referrals/index.ctp:74
+msgid "You have not referred any members yet."
+msgstr ""
+
+#: /views/referrals/pending.ctp:7
+msgid "Pending"
+msgstr ""
+
+#: /views/referrals/pending.ctp:54
+#: /views/themed/aquabid/referrals/pending.ctp:50
+#: /views/themed/tik/referrals/pending.ctp:49
+#: /views/themed/yep/referrals/pending.ctp:54
+msgid "You do not have any pending referrals at the moment."
+msgstr ""
+
+#: /views/setting_increments/admin_edit.ctp:11
+msgid "Bid Increments"
+msgstr ""
+
+#: /views/setting_increments/admin_edit.ctp:26
+msgid "<< Back to bid increments"
+msgstr ""
+
+#: /views/settings/admin_edit.ctp:10
+msgid "Edit the %s setting"
+msgstr ""
+
+#: /views/settings/admin_edit.ctp:14
+msgid "Value *"
+msgstr ""
+
+#: /views/settings/admin_edit.ctp:24
+msgid "<< Back to settings"
+msgstr ""
+
+#: /views/sources/admin_add.ctp:4
+msgid "Add Source"
+msgstr ""
+
+#: /views/sources/admin_add.ctp:14
+msgid "<< Back to Sources"
+msgstr ""
+
+#: /views/sources/admin_edit.ctp:4
+msgid "Edit Source"
+msgstr ""
+
+#: /views/sources/admin_index.ctp:2;8
+msgid "Sources"
+msgstr ""
+
+#: /views/sources/admin_index.ctp:12;60
+msgid "Create a new source"
+msgstr ""
+
+#: /views/sources/admin_index.ctp:45
+msgid "Are you sure you want to delete the source titled: %s?"
+msgstr ""
+
+#: /views/sources/admin_index.ctp:54
+msgid "There are no source at the moment."
+msgstr ""
+
+#: /views/statuses/admin_edit.ctp:10
+msgid "Edit a Status"
+msgstr ""
+
+#: /views/statuses/admin_edit.ctp:21
+msgid "<< Back to statuses"
+msgstr ""
+
+#: /views/statuses/admin_index.ctp:40
+msgid "There are no statuses at the moment."
+msgstr ""
+
+#: /views/themed/aquabid/addresses/edit.ctp:23
+msgid "Update Address"
+msgstr ""
+
+#: /views/themed/aquabid/addresses/index.ctp:36
+msgid "Add a %s Address"
+msgstr ""
+
+#: /views/themed/aquabid/auctions/home.ctp:16
+msgid "BID NOW! - these auctions are about to end"
+msgstr ""
+
+#: /views/themed/aquabid/auctions/home.ctp:96
+#: /views/themed/tik/auctions/home.ctp:134
+#: /views/themed/tik/auctions/view.ctp:82;159
+msgid "Bidder"
+msgstr ""
+
+#: /views/themed/aquabid/auctions/view.ctp:83
+#: /views/themed/goldenbids/auctions/view.ctp:108
+msgid "Book my Bid"
+msgstr ""
+
+#: /views/themed/aquabid/bidbutlers/add.ctp:8
+#: /views/themed/bidchopper/bidbutlers/add.ctp:15
+#: /views/themed/tik/bidbutlers/add.ctp:9
+#: /views/themed/yep/bidbutlers/add.ctp:14
+msgid "The minimum price must be at least"
+msgstr ""
+
+#: /views/themed/aquabid/bidbutlers/add.ctp:8
+#: /views/themed/bidchopper/bidbutlers/add.ctp:15
+#: /views/themed/tik/bidbutlers/add.ctp:9
+#: /views/themed/yep/bidbutlers/add.ctp:14
+msgid "higher than the current bid."
+msgstr ""
+
+#: /views/themed/aquabid/elements/menu_categories.ctp:1
+msgid "Auction Rooms"
+msgstr ""
+
+#: /views/themed/aquabid/elements/menu_categories.ctp:12
+#: /views/themed/tik/elements/menu_categories.ctp:13
+msgid "All Categories"
+msgstr ""
+
+#: /views/themed/aquabid/elements/menu_categories.ctp:21
+#: /views/themed/tik/elements/menu_categories.ctp:19
+msgid "Ended Auctions"
+msgstr ""
+
+#: /views/themed/aquabid/elements/menu_top.ctp:7
+msgid "My Redbid"
+msgstr ""
+
+#: /views/themed/aquabid/elements/status.ctp:2
+msgid "Welcome %s"
+msgstr ""
+
+#: /views/themed/aquabid/elements/status.ctp:8
+msgid "Go"
+msgstr ""
+
+#: /views/themed/aquabid/layouts/user.ctp:34
+msgid "Up to 100% off  the RRP of all products"
+msgstr ""
+
+#: /views/themed/aquabid/packages/buy.ctp:10
+msgid "You are about to purchase the bid package called %s for a price of %s."
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:12
+#: /views/themed/tik/users/login.ctp:10
+#: /views/users/login.ctp:16
+msgid "Remember Me"
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:18
+#: /views/themed/aquabid/users/reset.ctp:24
+#: /views/themed/goldenbids/users/login.ctp:18
+#: /views/themed/goldenbids/users/reset.ctp:24
+#: /views/themed/grababid/users/login.ctp:22
+#: /views/themed/grababid/users/reset.ctp:25
+#: /views/themed/tik/users/login.ctp:16
+#: /views/themed/tik/users/reset.ctp:12
+#: /views/themed/yep/users/login.ctp:21
+#: /views/themed/yep/users/reset.ctp:18
+#: /views/users/login.ctp:27
+#: /views/users/reset.ctp:24
+msgid "Don't have an account?"
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:19
+#: /views/themed/aquabid/users/register.ctp:52
+#: /views/themed/aquabid/users/reset.ctp:25;28
+#: /views/themed/goldenbids/users/login.ctp:19
+#: /views/themed/goldenbids/users/register.ctp:52
+#: /views/themed/goldenbids/users/reset.ctp:25;28
+#: /views/themed/grababid/users/login.ctp:23
+#: /views/themed/grababid/users/reset.ctp:26;29
+#: /views/themed/tik/users/login.ctp:17
+#: /views/themed/tik/users/register.ctp:43
+#: /views/themed/tik/users/reset.ctp:13;16
+#: /views/themed/yep/users/login.ctp:22
+#: /views/themed/yep/users/register.ctp:49
+#: /views/themed/yep/users/reset.ctp:19;22
+#: /views/users/login.ctp:28
+#: /views/users/register.ctp:49
+#: /views/users/reset.ctp:25;28
+msgid "If so you may want to %s now."
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:19
+#: /views/themed/aquabid/users/reset.ctp:25
+#: /views/themed/goldenbids/users/login.ctp:19
+#: /views/themed/goldenbids/users/reset.ctp:25
+#: /views/themed/grababid/users/login.ctp:23
+#: /views/themed/grababid/users/reset.ctp:26
+#: /views/themed/tik/users/login.ctp:17
+#: /views/themed/tik/users/reset.ctp:13
+#: /views/themed/yep/users/login.ctp:22
+#: /views/themed/yep/users/reset.ctp:19
+#: /views/users/login.ctp:28
+#: /views/users/reset.ctp:25
+msgid "sign up"
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:21
+#: /views/themed/aquabid/users/register.ctp:54
+#: /views/themed/aquabid/users/reset.ctp:2
+#: /views/themed/goldenbids/users/login.ctp:21
+#: /views/themed/goldenbids/users/register.ctp:54
+#: /views/themed/goldenbids/users/reset.ctp:2
+#: /views/themed/grababid/users/login.ctp:25
+#: /views/themed/grababid/users/reset.ctp:2
+#: /views/themed/tik/users/login.ctp:19
+#: /views/themed/tik/users/register.ctp:45
+#: /views/themed/tik/users/reset.ctp:1
+#: /views/themed/yep/users/login.ctp:24
+#: /views/themed/yep/users/register.ctp:51
+#: /views/themed/yep/users/reset.ctp:3
+#: /views/users/login.ctp:30
+#: /views/users/register.ctp:51
+#: /views/users/reset.ctp:2
+msgid "Forgotten Your Password?"
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:22
+#: /views/themed/aquabid/users/register.ctp:55
+#: /views/themed/goldenbids/users/login.ctp:22
+#: /views/themed/goldenbids/users/register.ctp:55
+#: /views/themed/grababid/users/login.ctp:26
+#: /views/themed/tik/users/login.ctp:20
+#: /views/themed/tik/users/register.ctp:46
+#: /views/themed/yep/users/login.ctp:25
+#: /views/themed/yep/users/register.ctp:52
+#: /views/users/login.ctp:31
+#: /views/users/register.ctp:52
+msgid "Click here to %s."
+msgstr ""
+
+#: /views/themed/aquabid/users/login.ctp:22
+#: /views/themed/aquabid/users/register.ctp:55
+#: /views/themed/goldenbids/users/login.ctp:22
+#: /views/themed/goldenbids/users/register.ctp:55
+#: /views/themed/grababid/users/login.ctp:26
+#: /views/themed/tik/users/login.ctp:20
+#: /views/themed/tik/users/register.ctp:46
+#: /views/themed/yep/users/login.ctp:25
+#: /views/themed/yep/users/register.ctp:52
+#: /views/users/login.ctp:31
+#: /views/users/register.ctp:52
+msgid "reset your password"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:8
+#: /views/themed/tik/users/edit.ctp:12
+#: /views/themed/tik/users/register.ctp:6
+#: /views/users/edit.ctp:15
+#: /views/users/register.ctp:11
+msgid "Username *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:11
+#: /views/themed/tik/users/edit.ctp:13
+#: /views/themed/tik/users/register.ctp:9
+#: /views/users/edit.ctp:16
+#: /views/users/register.ctp:14
+msgid "First Name *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:12
+#: /views/themed/tik/users/edit.ctp:14
+#: /views/themed/tik/users/register.ctp:10
+#: /views/users/edit.ctp:17
+#: /views/users/register.ctp:15
+msgid "Last Name *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:13
+#: /views/themed/tik/users/edit.ctp:15
+#: /views/themed/tik/users/register.ctp:11
+#: /views/users/edit.ctp:18
+#: /views/users/register.ctp:16
+msgid "Email *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:14
+#: /views/themed/tik/users/edit.ctp:16
+#: /views/themed/tik/users/register.ctp:12
+#: /views/users/admin_view.ctp:11
+#: /views/users/edit.ctp:19
+#: /views/users/register.ctp:17
+msgid "Date of Birth"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:15
+#: /views/themed/tik/users/register.ctp:13
+#: /views/users/admin_view.ctp:16
+#: /views/users/register.ctp:18
+msgid "Gender"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:16
+#: /views/themed/tik/users/edit.ctp:19
+#: /views/themed/tik/users/register.ctp:14
+#: /views/users/edit.ctp:22
+#: /views/users/register.ctp:19
+msgid "Sign up for the newsletter?"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:17
+#: /views/themed/tik/users/register.ctp:15
+#: /views/users/register.ctp:20
+msgid "Referred By"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:19
+#: /views/themed/tik/users/register.ctp:17
+#: /views/users/register.ctp:22
+msgid "Enter in the username or email address of something that referred you."
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:22
+#: /views/themed/goldenbids/users/register.ctp:22
+#: /views/themed/tik/users/register.ctp:21
+#: /views/themed/yep/users/register.ctp:27
+#: /views/users/register.ctp:26
+msgid "How did you find us? *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:33
+#: /views/themed/goldenbids/users/register.ctp:33
+#: /views/themed/grababid/users/register.ctp:48
+msgid "Site Name *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:39
+#: /views/themed/goldenbids/users/register.ctp:39
+#: /views/themed/tik/users/register.ctp:31
+#: /views/themed/yep/users/register.ctp:37
+#: /views/users/register.ctp:36
+msgid "Source *"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:51
+#: /views/themed/aquabid/users/reset.ctp:27
+#: /views/themed/goldenbids/users/register.ctp:51
+#: /views/themed/goldenbids/users/reset.ctp:27
+#: /views/themed/grababid/users/reset.ctp:28
+#: /views/themed/tik/users/register.ctp:42
+#: /views/themed/tik/users/reset.ctp:15
+#: /views/themed/yep/users/register.ctp:48
+#: /views/themed/yep/users/reset.ctp:21
+#: /views/users/register.ctp:48
+#: /views/users/reset.ctp:27
+msgid "Already a Member?"
+msgstr ""
+
+#: /views/themed/aquabid/users/register.ctp:52
+#: /views/themed/aquabid/users/reset.ctp:28
+#: /views/themed/goldenbids/users/register.ctp:52
+#: /views/themed/goldenbids/users/reset.ctp:28
+#: /views/themed/grababid/users/reset.ctp:29
+#: /views/themed/tik/users/register.ctp:43
+#: /views/themed/tik/users/reset.ctp:16
+#: /views/themed/yep/users/register.ctp:49
+#: /views/themed/yep/users/reset.ctp:22
+#: /views/users/register.ctp:49
+#: /views/users/reset.ctp:28
+msgid "login"
+msgstr ""
+
+#: /views/themed/aquabid/users/reset.ctp:4
+#: /views/themed/goldenbids/users/reset.ctp:4
+#: /views/themed/grababid/users/reset.ctp:5
+#: /views/themed/tik/users/reset.ctp:2
+#: /views/themed/yep/users/reset.ctp:8
+#: /views/users/reset.ctp:4
+msgid "If you have forgotten your username and password simply enter in your email address below."
+msgstr ""
+
+#: /views/themed/aquabid/users/reset.ctp:6
+#: /views/themed/goldenbids/users/reset.ctp:6
+#: /views/themed/grababid/users/reset.ctp:7
+#: /views/themed/tik/users/reset.ctp:4
+#: /views/themed/yep/users/reset.ctp:10
+#: /views/users/reset.ctp:6
+msgid "Your login details will be emailed to you and your password will be reset."
+msgstr ""
+
+#: /views/themed/bidchopper/auctions/home.ctp:160
+msgid "Click here to view all Future Auctions &raquo;"
+msgstr ""
+
+#: /views/themed/bidchopper/elements/menu_top.ctp:19
+msgid "My BidChopper"
+msgstr ""
+
+#: /views/themed/bidchopper/elements/menu_user.ctp:2
+#: /views/themed/goldenbids/elements/menu_user.ctp:2
+#: /views/themed/grababid/elements/menu_user.ctp:2
+msgid "User Menus"
+msgstr ""
+
+#: /views/themed/bidchopper/errors/error404.ctp:4
+#: /views/themed/goldenbids/errors/error404.ctp:4
+#: /views/themed/grababid/errors/error404.ctp:4
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: /views/themed/goldenbids/users/login.ctp:12
+#: /views/themed/grababid/users/login.ctp:14
+#: /views/themed/yep/users/login.ctp:15
+msgid " Remember Me"
+msgstr ""
+
+#: /views/themed/grababid/users/changepassword.ctp:16
+#: /views/themed/tik/users/changepassword.ctp:13
+#: /views/themed/yep/users/changepassword.ctp:18
+#: /views/users/changepassword.ctp:16
+msgid "New Password"
+msgstr ""
+
+#: /views/themed/grababid/users/register.ctp:38
+msgid "How did you find us? <span class=\"red\">*</span>"
+msgstr ""
+
+#: /views/themed/tik/accounts/index.ctp:46
+#: /views/themed/yep/accounts/index.ctp:51
+msgid "You have no account transactions at the moment."
+msgstr ""
+
+#: /views/themed/tik/auctions/home.ctp:19;52
+msgid "Real Price"
+msgstr ""
+
+#: /views/themed/tik/auctions/home.ctp:21;54
+#: /views/themed/tik/elements/auctions.ctp:16
+msgid "Latest Bidder"
+msgstr ""
+
+#: /views/themed/tik/auctions/home.ctp:66
+#: /views/themed/tik/auctions/view.ctp:4
+msgid "Auctions Ending Soon"
+msgstr ""
+
+#: /views/themed/tik/auctions/home.ctp:108
+msgid "More Live Auctions"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:96
+#: /views/themed/yep/auctions/view.ctp:110
+msgid "Congratulations to <br /> %s"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:129
+msgid "Min Price*"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:132
+msgid "Max Price*"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:135
+msgid "Number of Bids*"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:158
+msgid "Amount"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:160
+msgid "Type"
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:203
+msgid "The \"worth up to\" price reflects the manufacturer's recommended retail price or typical high street retail price."
+msgstr ""
+
+#: /views/themed/tik/auctions/view.ctp:214
+msgid "Product Information"
+msgstr ""
+
+#: /views/themed/tik/bidbutlers/add.ctp:1
+#: /views/themed/yep/bidbutlers/add.ctp:3
+msgid "Add BidBuddies"
+msgstr ""
+
+#: /views/themed/tik/bidbutlers/edit.ctp:1
+#: /views/themed/yep/bidbutlers/edit.ctp:3
+msgid "Edit BidBuddies"
+msgstr ""
+
+#: /views/themed/tik/bidbutlers/index.ctp:1
+#: /views/themed/yep/bidbutlers/index.ctp:3
+msgid "My BidBuddies"
+msgstr ""
+
+#: /views/themed/tik/elements/auctions.ctp:31
+msgid "LOGIN"
+msgstr ""
+
+#: /views/themed/tik/elements/how_it_works.ctp:3
+msgid "How It Works"
+msgstr ""
+
+#: /views/themed/tik/elements/how_it_works.ctp:10
+msgid "Choose the product"
+msgstr ""
+
+#: /views/themed/tik/elements/how_it_works.ctp:11
+msgid "Bid the Price"
+msgstr ""
+
+#: /views/themed/tik/elements/how_it_works.ctp:12
+msgid "Win the low price"
+msgstr ""
+
+#: /views/themed/tik/elements/latest_auctions.ctp:5
+msgid "Latest Auctions"
+msgstr ""
+
+#: /views/themed/tik/elements/latest_winner.ctp:7
+msgid "Congratulation to %s"
+msgstr ""
+
+#: /views/themed/tik/elements/menu_top.ctp:7;14
+msgid "Help"
+msgstr ""
+
+#: /views/themed/tik/elements/menu_top.ctp:8;15
+msgid "Terms"
+msgstr ""
+
+#: /views/themed/tik/elements/packages.ctp:5
+msgid "Bid Packages"
+msgstr ""
+
+#: /views/themed/tik/elements/refer.ctp:3
+msgid "Refer Friends"
+msgstr ""
+
+#: /views/themed/tik/elements/refer.ctp:9
+msgid "Click here to inform your friends about %s"
+msgstr ""
+
+#: /views/themed/tik/elements/status.ctp:3
+msgid "Member Login"
+msgstr ""
+
+#: /views/themed/tik/elements/status.ctp:11
+#: /views/themed/yep/elements/status.ctp:13
+msgid "Welcome <br /> <span class=\"uname\">%s</span>"
+msgstr ""
+
+#: /views/themed/tik/elements/status.ctp:12
+#: /views/themed/yep/elements/status.ctp:14
+msgid "(logout)"
+msgstr ""
+
+#: /views/themed/tik/elements/status.ctp:32
+#: /views/themed/yep/elements/status.ctp:35
+msgid "Not a member yet? <a href=\"/users/register\">Register here!"
+msgstr ""
+
+#: /views/themed/tik/users/changepassword.ctp:10
+msgid "To change your password enter in your old password and your new password twice."
+msgstr ""
+
+#: /views/themed/tik/users/edit.ctp:1
+#: /views/themed/yep/users/edit.ctp:3
+msgid "Edit Account"
+msgstr ""
+
+#: /views/themed/tik/users/edit.ctp:17
+#: /views/users/edit.ctp:20
+msgid "Gender *"
+msgstr ""
+
+#: /views/themed/tik/users/edit.ctp:18
+#: /views/users/edit.ctp:21
+msgid "NIF"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:5
+#: /views/users/index.ctp:9
+msgid "Dash Board"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:9
+#: /views/users/index.ctp:13
+msgid "Things to Do"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:22
+#: /views/users/index.ctp:26
+msgid "Purchase some bids"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:31
+#: /views/users/index.ctp:35
+msgid "You have no things to do at the moment."
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:35
+#: /views/users/index.ctp:39
+msgid "My Dash Board"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:37
+#: /views/users/index.ctp:41
+msgid "You currently have %s bids."
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:37
+#: /views/users/index.ctp:41
+msgid "Click here to purchase some bids"
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:39
+#: /views/users/index.ctp:43
+msgid "You currently have %s unpaid auction(s)."
+msgstr ""
+
+#: /views/themed/tik/users/index.ctp:39
+#: /views/users/index.ctp:43
+msgid "View your won auctions"
+msgstr ""
+
+#: /views/themed/yep/elements/packages.ctp:20
+msgid "There is no packages at the moment"
+msgstr ""
+
+#: /views/themed/yep/elements/status.ctp:6
+msgid "Member Area"
+msgstr ""
+
+#: /views/translations/admin_add.ctp:13
+msgid "Add an Translation for"
+msgstr ""
+
+#: /views/translations/admin_add.ctp:28
+msgid "Add Translation >>"
+msgstr ""
+
+#: /views/translations/admin_add.ctp:32
+#: /views/translations/admin_edit.ctp:33
+msgid "<< Back to translations for "
+msgstr ""
+
+#: /views/translations/admin_edit.ctp:13
+msgid "Edit an Translation for"
+msgstr ""
+
+#: /views/translations/admin_index.ctp:14;56
+msgid "Add a new translation"
+msgstr ""
+
+#: /views/translations/admin_index.ctp:41
+msgid "Are you sure you want to delete this translation for: %s?"
+msgstr ""
+
+#: /views/translations/admin_index.ctp:50
+msgid "There are no translations for this product."
+msgstr ""
+
+#: /views/users/admin_add.ctp:10
+msgid "Add a User"
+msgstr ""
+
+#: /views/users/admin_add.ctp:26
+msgid "Add User"
+msgstr ""
+
+#: /views/users/admin_autobidder_add.ctp:10
+msgid "Add an Auto bidder"
+msgstr ""
+
+#: /views/users/admin_autobidder_add.ctp:16
+msgid "Add Autobidder"
+msgstr ""
+
+#: /views/users/admin_autobidder_add.ctp:20
+#: /views/users/admin_autobidder_edit.ctp:21
+msgid "<< Back to auto bidders"
+msgstr ""
+
+#: /views/users/admin_autobidder_edit.ctp:10
+msgid "Edit an Auto bidder"
+msgstr ""
+
+#: /views/users/admin_autobidders.ctp:11;65
+msgid "Create a new autobidder"
+msgstr ""
+
+#: /views/users/admin_autobidders.ctp:50
+msgid "Are you sure you want to delete the autobidder: %s?"
+msgstr ""
+
+#: /views/users/admin_autobidders.ctp:60
+msgid "There are no auto bidders at the moment."
+msgstr ""
+
+#: /views/users/admin_edit.ctp:10
+msgid "Edit a User"
+msgstr ""
+
+#: /views/users/admin_index.ctp:11;99
+msgid "Create a new user"
+msgstr ""
+
+#: /views/users/admin_index.ctp:57
+msgid "Resend Activation Email"
+msgstr ""
+
+#: /views/users/admin_index.ctp:84
+msgid "Are you sure you want to delete the user: %s?"
+msgstr ""
+
+#: /views/users/admin_index.ctp:94
+msgid "There are no users at the moment."
+msgstr ""
+
+#: /views/users/admin_view.ctp:21
+msgid "Active"
+msgstr ""
+
+#: /views/users/admin_view.ctp:32
+msgid "Referred by"
+msgstr ""
+
+#: /views/users/admin_view.ctp:41
+msgid "User's Address Details"
+msgstr ""
+
+#: /views/users/reset.ctp:16
+msgid "Send Account Details"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:4
+msgid "Add Watchlist"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:14
+#: /views/watchlists/admin_edit.ctp:16
+#: /views/watchlists/admin_view.ctp:35
+msgid "List Watchlists"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:15
+#: /views/watchlists/admin_edit.ctp:17
+#: /views/watchlists/admin_index.ctp:59
+#: /views/watchlists/admin_view.ctp:37
+msgid "List Auctions"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:16
+#: /views/watchlists/admin_edit.ctp:18
+#: /views/watchlists/admin_index.ctp:60
+#: /views/watchlists/admin_view.ctp:38
+msgid "New Auction"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:17
+#: /views/watchlists/admin_edit.ctp:19
+#: /views/watchlists/admin_index.ctp:61
+#: /views/watchlists/admin_view.ctp:39
+msgid "List Users"
+msgstr ""
+
+#: /views/watchlists/admin_add.ctp:18
+#: /views/watchlists/admin_edit.ctp:20
+#: /views/watchlists/admin_index.ctp:62
+#: /views/watchlists/admin_view.ctp:40
+msgid "New User"
+msgstr ""
+
+#: /views/watchlists/admin_edit.ctp:4
+#: /views/watchlists/admin_view.ctp:33
+msgid "Edit Watchlist"
+msgstr ""
+
+#: /views/watchlists/admin_index.ctp:2
+msgid "Watchlists"
+msgstr ""
+
+#: /views/watchlists/admin_index.ctp:6
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: /views/watchlists/admin_index.ctp:52
+msgid "previous"
+msgstr ""
+
+#: /views/watchlists/admin_index.ctp:54
+msgid "next"
+msgstr ""
+
+#: /views/watchlists/admin_index.ctp:58
+#: /views/watchlists/admin_view.ctp:36
+msgid "New Watchlist"
+msgstr ""
+
+#: /views/watchlists/admin_view.ctp:2
+msgid "Watchlist"
+msgstr ""
+
+#: /views/watchlists/admin_view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: /views/watchlists/admin_view.ctp:9
+msgid "User"
+msgstr ""
+
+#: /views/watchlists/admin_view.ctp:34
+msgid "Delete Watchlist"
+msgstr ""
+
+#: /views/watchlists/index.ctp:45
+msgid "You are not watching any auctions at the moment."
+msgstr ""
+
+#: /webroot/test.php:101
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

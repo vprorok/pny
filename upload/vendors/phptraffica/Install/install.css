@@ -1,0 +1,43 @@
+
+Body {
+	background: #efefef;
+	color: #0B1B2F;
+	font-size:11pt;
+	margin: 0px;
+	font-family : arial,verdana,sans-serif;
+}
+
+#main {
+	border: #000000 solid 1px;
+	margin: 5px;
+	padding: 5px;
+	background: #FFFFFF;
+}
+
+code {
+	color: #791212;
+	font-size:11pt;
+	font-family : Monospace, "Courier New", Courier, monospace;
+}
+
+h1 {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	color: #341B86;
+	margin: 10px 0px;
+}
+
+div.error {
+	border: #FF0000 solid 1px;
+	margin: 5px 5px 15px 5px;
+	padding: 5px;
+	color: #FF0000;
+}
+
+form table {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 30px;
+	border: 1px solid #000000;
+}

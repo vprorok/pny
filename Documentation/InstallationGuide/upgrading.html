@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>phpPennyAuction Upgrade Instructions</title>
+		<style type='text/css' media='all'>
+			@import url('includes/style.css');
+		</style>
+		<script type='text/javascript'>
+			//<![CDATA[
+		  		if (top.location != self.location) { top.location = self.location }
+				var use_enhanced_js = 1;
+			//]]>
+		</script>
+	</head>
+	<body>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div id='ipswrapper'>
+		    <div class='main_shell'>
+           <div id='branding'><a style='text-decoration: none;' href='../START_HERE.html'><img src='includes/images/logo.png' align='absmiddle' border="0" id="logox" /></a></div>
+            		 	    <div id='navigation'>
+                            <ul id='section_buttons'>
+                            <li class='active'><span>Upgrade</span></li>
+                            <li class='active'><a style='text-decoration: none;' href='../START_HERE.html'<span>Back</span></a></li>
+                            <li class='active'><a align = 'right' style='text-decoration: none;' href='includes/help.html'<span>Help</span></a></li>
+
+					</ul>				</div>
+		 	    <div class='content_shell'>
+		 	        <div class='package' style='text-align:middle;height:429px'>
+		 	            <div>
+		 	                
+		 	            
+    		 	            <div class='content_wrap' style='width:850px; margin:6px 12px 6px 6px;height:400px'>
+							
+							<blockquote>Be sure to make a backup of everything as described in steps 1 and 2. phpPennyAuction staff cannot be held responsible for dataloss experienced during the upgrade, so please make sure you have full backups. </blockquote><br />
+<br />
+
+							<h2>Upgrading phpPennyAuction from 2.4.1 to 2.4.2</h2>
+                            Upgrading the software from 2.4.1 to 2.4.2 is partially automated but you will need to have a fairly good knowledge of servers and backing up data to continue. For this reason, and because version 2.4 comes with an automated installer, phpPennyAuction recommend that as many clients as possible download the newest version and use that if upgrading is not necessary, although <strong>note that installing from new may wipe your previous data</strong>. <br />
+<br /><br />
+<br />
+<strong><span style="color:#900;">Important: Make sure to read these instructions IN FULL</span> before attempting to upgrade the software. phpPennyAuction CANNOT and WILL NOT be held responsible for any loss or damage caused by not upgrading properly. If you are unsure how to do this, contact phpPennyAuction Support and do not attempt to upgrade as you may lose all your website data. </strong><br />
+<br />
+<br />
+<br />
+
+
+							 
+                             <strong>Step 1.</strong> Make your website offline to prevent it from operating during the upgrade process. Go to your Admin Panel and then under the Site Live option in Settings -> General Settings, disable it (off). Your website will then not allow any activity from your users, and will sign everyone out. <strong>Verify that this setting has saved and your website has a 'closed' message</strong>. <br />
+<br />
+<strong>Step 2.</strong> Download/Export all the current phpPennyAuction software files <strong>from</strong> on your server, to somewhere on your hard drive. You must make a backup of ALL of the files and folders used by phpPennyAuction software, including any custom folders for applications or plugins you've added (blogs etc). <br />
+<br />
+<strong>Step 3.</strong> Once the files backup is complete, you will then need to backup your database as well. You will need to go to phpMyAdmin and use the Export option to export the entire contents of the database to a safe place. If the database is large, please make sure to save the file format as .gzip in phpMyAdmin so that it does not time out. <br />
+<br />
+<strong>Step 4.</strong> The next step is to upload all of the software's files and folders from 2.4.2 (the newer edition), to your server. This will overwrite all of the files. <strong>You don't need to modify the database at all</strong> as this process is automated - it's only the website's files on the web server you're updating.<br />
+<br />
+<strong>Step 5.</strong> If you've made any customizations to the website such as a custom template (theme), then you'll now need to upload those changes from your backup from Step 2. For example if you edited the template_frog/auctions/view.ctp file and want to upload that to work with 2.4.2, you will need to upload it to the server, from your hard drive copy. <br />
+<br />
+<strong>Step 6.</strong> Once done, log into your website's Admin Panel and the database upgrade process will begin. You don't need to do anything. If there are errors after 5 minutes, log out of the Admin Panel and log back in. The database upgrade should then be fully complete. <br />
+<br />
+<strong>Step 7.</strong> If you have any questions or if there are problems upgrading, please submit a ticket at <a href="https://members.phppennyauction.com" target="_blank" title="Opens in New Window">the Support Center</a>. Note that phpPennyAuction Staff can only provide free support for the standard software - if you have problems with any modifications/customizations related to the upgrade process we will need to invoice you for the time to look into those as they are NOT covered by our Free Support. For more information on Support Policieis, please read our <a href="http://www.phppennyauction.com/about/scope-of-support/" target="_blank" title="Opens in New Window">Scope of Support statement</a>. <br />
+
+		 	            </div>
+		 	            <br clear='all' />
+		 	            <div style='clear: both;'></div>
+		 	            <div class='copyright'>
+		 	                &copy; 2011 Scriptmatix Ltd. All Rights Reserved.
+		 	            </div>
+		 	        </div>
+
+		 	    </div>
+    		</div>
+
+    	</div>
+    	
+		</form>
+	
+	</body>
+</html>

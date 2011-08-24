@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule (.*\.(png|gif|jpg|jpeg|js|css|swf))$ webroot/img_handler.php?arg=$1 [L] 
+   RewriteRule    ^$ webroot/    [L]
+   RewriteRule    (.*) webroot/$1 [L]
+</IfModule>
+
+# disable directory browsing -IMPORTANT, do NOT remove.
+Options -Indexes
+
+# protect the htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# disable the server signature
+ServerSignature Off
+
+
+# protect php.ini
+<files *.ini>
+order allow,deny
+deny from all
+</files>

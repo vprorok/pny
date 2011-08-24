@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<title>phpPennyAuction - Step 2</title>
+	<style type='text/css' media='all'>
+		@import url('style.css');
+	</style>
+</head>
+<body>
+
+
+<h2>Installing: Step 2 - Installation (continued)</h2>
+<br />
+<div class='content-text'>
+  <p><strong>Step 3)</strong> The next step is to create a new  MySQL database and import the included<em> main.sql </em>file in the <em>/config/sql/ folder</em>, into your database.&nbsp;  You should create a new database (we don't recommend using an existing one), and set up a username &amp; password for it which you can remember. You can do  this by accessing the &quot;MySQL&quot; options from your Host&rsquo;s Control Panel or within Plesk/Cpanel. If you need help with this, please contact your web host, or view our Videos in the <a href="https://members.phppennyauction.com/" target="_blank">Support Center</a>.&nbsp; To reiterate, in the downloaded files you have, go to the <em>/config/sql/ </em>folder and import the  <strong>main.sql</strong> file into your new MySQL database. You may wish to do this  via the unix shell prompt, or phpMyAdmin (recommended) if you are familiar with that. This will import all necessary data &amp; tables into your database.</p>
+  <p><br />
+    <br />
+    <br />
+  </p>
+  <p><strong>Step 4)</strong> Now you need to edit the  configuration (<em>config.php</em>) file. This is a core file where all of the major settings are.  &nbsp;On your server, in the /<em>config</em>/  folder you will see a file called <strong>'config.default.php'. </strong>Rename this to <strong>'config.php'</strong>, and  fill out all the details by following the instructions inside. You will need to make sure to enter a domain name, email address and a few other deetails. You will also need to include your  MySQL database name, username, password, and hostname, from the step above, in the config.php file. In most cases, the <em>hostname</em> will be &ldquo;<strong>localhost</strong>&rdquo;. You can obtain the rest of the  information from your web hosting provider if unsure. Note that the <em>'prefix'</em> field should nearly always be left blank. <br />
+    <br />
+  </p>
+  <p>Then, go through and fill out your domain name where you are using the software. For example the <em>'ref_url'</em>, <em>'nml_url'</em> and <em>'serverName'</em> fields need to be filled out. <br />
+  </p>
+<p>&nbsp;</p>
+  <p><strong>Leave the rest of the  settings as they are for the time being </strong>and save the file with the  changes made.</p>
+  <p><br />
+    <br />
+<br />
+    <br />
+    <strong>Step 5)</strong> The next step is to set some permissions on folders. We do this via chmod (set permissions to) 777 on the following directories:<br />
+  <br />
+  <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;/tmp/</em></p>
+  <p> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;/webroot/img/</em><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<table width='100%' align='center' cellpadding='4' cellspacing='0'>
+ <tr>
+  <td align='center'>
+  <table width='100%' align='center' cellpadding='0' cellspacing='0' bgcolor='#BCBCBC'>
+  <tr>
+   <td>
+    <table width='100%' align='center' cellpadding='4' cellspacing='1'>
+     <tr>
+       <td width='5%' bgcolor='#EEEEEE' style='font-size:10px'>&nbsp;</td>
+       <td width='25%' bgcolor='#EEEEEE' style='font-size:10px'><b>File/Folder Name</b></td>
+       <td width='20%' bgcolor='#EEEEEE' style='font-size:10px' align='center'><b>Item CHMOD Value</b></td>
+       <td width='30%' bgcolor='#EEEEEE' style='font-size:10px' align='center'><b>Recursively (Files/Folders Within)</b></td>
+       <td width='15%' bgcolor='#EEEEEE' style='font-size:10px' align='center'><b>CHMOD Needed?</b></td>
+       </tr>
+      
+      <tr>
+        <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+        <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/tmp/</span></td>
+        <td align='center' valign='middle' bgcolor='#FFFFFF'>0777<td align='center' valign='middle' bgcolor='#FFFFFF'><span style='color:red'><b>YES</b></span></a>
+        <td align='center' valign='middle' bgcolor='#FFFFFF'>YES</tr>
+
+       <tr>
+         <td align='center' valign='middle' bgcolor='#FFFFFF'><img src='images/folder.gif' border='0' alt='folder'></td>
+         <td align='left' valign='middle' bgcolor='#FFFFFF'><span style='color:blue'>/webroot/img/</span></td>
+         <td align='center' valign='middle' bgcolor='#FFFFFF'>0777</a>
+           <td align='center' valign='middle' bgcolor='#FFFFFF'><span style='color:red'><b>YES</b></span></a>
+           <td align='center' valign='middle' bgcolor='#FFFFFF'>YES</tr>
+       
+      </table>
+    </td>
+   </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+  <p> <br />
+    NB: Make sure ALL folders inside these are also  set recursively to 777 (read/write/all).&nbsp; For example this folder must also be set with the same permissions: <br />
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;&nbsp; &nbsp;/tmp/cache/</em></p>
+  <p>&nbsp;</p>
+  <p>All other folders should be set to the default server setting, which is normally 755. Do not set any other folders to 777.</p>
+  <p>&nbsp;</p>
+  <p><br />
+  </p>
+  <p>Tip: if you are unsure how to CHMOD a folder or file, please  see here:  <a href="http://www.phpjunkyard.com/ftp-chmod-tutorial.php" target="_blank">http://www.phpjunkyard.com/ftp-chmod-tutorial.php</a>, or contact phpPennyAuction support. </p>
+  <p></p>
+<p></p>
+</div>
+<br /><br />
+<div class='content-next'>
+	<img src='images/next_arrow.png' alt='' style='vertical-align:middle' border='0' /> <a href='install3.html'>Next: Installation Step Three</a>
+</div>
+
+</body>
+</html>
