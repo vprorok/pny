@@ -32,6 +32,7 @@ echo $this->element('admin/crumb');
 			echo $form->input('beginner', array('label' => __('Beginner Auction - Only new members can bid.&nbsp;&nbsp;<img src="/admin/img/new-feature.gif" alt="" />', true)));
 			echo $form->input('reverse', array('label' => __('Reverse Auction - Price starts at <span class="HelpToolTip" style="float: none;"> RRP <span class="HelpToolTip_Title" style="display:none;">RRP/MSRP</span> <span class="HelpToolTip_Contents" style="display:none;">The RRP is the Recommended Retail Price, sometimes known as the <b>MSRP</b>, this will be shown on your website as \'worth up to \'.</span></span> and decreases with each bid.&nbsp;&nbsp;<img src="/admin/img/new-feature.gif" alt="" />', true)));
 			echo $form->input('active', array('label' => __('Active - show this auction on the website.', true)));
+			echo $form->input('anonymous', array('label' => __('Anonymous - show this auction as anonymous.', true)));
 			if(!empty($appConfigurations['hiddenReserve'])) {
 				echo $form->input('hidden_reserve');
 			}
